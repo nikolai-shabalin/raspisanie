@@ -237,16 +237,19 @@ function getCurrentLessonInfo() {
 				color: white;
 				padding: 30px;
 				text-align: center;
+				transition: all 0.3s ease;
 			}
 			.header h1 {
 				margin: 0;
 				font-size: 2.7rem;
 				font-weight: 300;
+				transition: font-size 0.3s ease;
 			}
 			.week-range {
 				margin-top: 10px;
 				font-size: 1.4rem;
 				opacity: 0.9;
+				transition: all 0.3s ease;
 			}
 			.current-day {
 				margin-top: 8px;
@@ -256,6 +259,26 @@ function getCurrentLessonInfo() {
 				padding: 8px 16px;
 				border-radius: 20px;
 				display: inline-block;
+				transition: all 0.3s ease;
+			}
+			
+			/* Стили для мобильной версии шапки */
+			@media (max-width: 600px) {
+				.header {
+					padding: 15px;
+				}
+				.header h1 {
+					font-size: 1.8rem;
+				}
+				.week-range {
+					margin-top: 5px;
+					font-size: 1rem;
+				}
+				.current-day {
+					margin-top: 5px;
+					font-size: 0.9rem;
+					padding: 4px 12px;
+				}
 			}
 			.schedule-grid {
 				display: grid;
