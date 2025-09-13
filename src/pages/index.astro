@@ -337,6 +337,30 @@ function getCurrentLessonInfo() {
 			.lesson-slot.future-slot {
 				background: #fafafa;
 			}
+			
+			
+			/* Анимации для уведомлений */
+			@keyframes slideDown {
+				from {
+					opacity: 0;
+					transform: translateX(-50%) translateY(-20px);
+				}
+				to {
+					opacity: 1;
+					transform: translateX(-50%) translateY(0);
+				}
+			}
+			
+			@keyframes slideUp {
+				from {
+					opacity: 1;
+					transform: translateX(-50%) translateY(0);
+				}
+				to {
+					opacity: 0;
+					transform: translateX(-50%) translateY(-20px);
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -404,6 +428,11 @@ function getCurrentLessonInfo() {
 		
 		<script>
 			// @ts-nocheck
+			
+			// Глобальные переменные для оффлайн-поддержки
+			let isOnline = navigator.onLine;
+			let serviceWorkerRegistration = null;
+			
 			// Функция для проверки времени в слоте (дублируем серверную логику)
 			/**
 			 * @param {string} currentTime
@@ -599,15 +628,71 @@ function getCurrentLessonInfo() {
 			window.addEventListener('scroll', updateTimeIndicator);
 			window.addEventListener('resize', updateTimeIndicator);
 			
+			// Функции для оффлайн-поддержки
+			function updateOnlineStatus() {
+				isOnline = navigator.onLine;
+			}
+			
+			function showOfflineMessage() {
+				const message = document.createElement('div');
+				message.id = 'offlineMessage';
+				message.style.cssText = `
+					position: fixed;
+					top: 20px;
+					left: 50%;
+					transform: translateX(-50%);
+					background: #ff6b6b;
+					color: white;
+					padding: 15px 25px;
+					border-radius: 25px;
+					box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+					z-index: 1000;
+					font-size: 14px;
+					animation: slideDown 0.3s ease;
+				`;
+				message.innerHTML = '📡 Нет подключения к интернету. Показываются кэшированные данные.';
+				document.body.appendChild(message);
+				
+				// Убираем сообщение через 5 секунд
+				setTimeout(() => {
+					if (message.parentNode) {
+						message.style.animation = 'slideUp 0.3s ease';
+						setTimeout(() => message.remove(), 300);
+					}
+				}, 5000);
+			}
+			
+			function hideOfflineMessage() {
+				const message = document.getElementById('offlineMessage');
+				if (message) {
+					message.style.animation = 'slideUp 0.3s ease';
+					setTimeout(() => message.remove(), 300);
+				}
+			}
+			
 			// Регистрация Service Worker для PWA
 			if ('serviceWorker' in navigator) {
 				window.addEventListener('load', () => {
 					navigator.serviceWorker.register('./sw.js')
 						.then((registration) => {
-							// SW зарегистрирован
+							serviceWorkerRegistration = registration;
+							
+							// Проверяем обновления
+							registration.addEventListener('updatefound', () => {
+								const newWorker = registration.installing;
+								newWorker.addEventListener('statechange', () => {
+									if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+										// Новый SW готов, предлагаем обновление
+										if (confirm('Доступно обновление приложения. Обновить сейчас?')) {
+											newWorker.postMessage({ type: 'SKIP_WAITING' });
+											window.location.reload();
+										}
+									}
+								});
+							});
 						})
 						.catch((registrationError) => {
-							// Ошибка регистрации SW
+							// Ошибка регистрации Service Worker
 						});
 				});
 			}
@@ -625,6 +710,78 @@ function getCurrentLessonInfo() {
 			window.addEventListener('appinstalled', (evt) => {
 				// PWA установлено
 			});
+			
+			// Обработка изменений статуса соединения
+			window.addEventListener('online', () => {
+				updateOnlineStatus();
+				hideOfflineMessage();
+			});
+			
+			window.addEventListener('offline', () => {
+				updateOnlineStatus();
+				showOfflineMessage();
+			});
+			
+			// Функция для обработки ошибок сети
+			function handleNetworkError(error, context) {
+				if (!isOnline) {
+					showOfflineMessage();
+				} else {
+					// Показываем уведомление об ошибке сети
+					const message = document.createElement('div');
+					message.style.cssText = `
+						position: fixed;
+						top: 20px;
+						left: 50%;
+						transform: translateX(-50%);
+						background: #ff9800;
+						color: white;
+						padding: 15px 25px;
+						border-radius: 25px;
+						box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+						z-index: 1000;
+						font-size: 14px;
+						animation: slideDown 0.3s ease;
+					`;
+					message.innerHTML = '⚠️ Ошибка загрузки данных. Проверьте соединение.';
+					document.body.appendChild(message);
+					
+					setTimeout(() => {
+						if (message.parentNode) {
+							message.style.animation = 'slideUp 0.3s ease';
+							setTimeout(() => message.remove(), 300);
+						}
+					}, 4000);
+				}
+			}
+			
+			// Функция для безопасной загрузки данных
+			async function safeFetch(url, options = {}) {
+				try {
+					const response = await fetch(url, options);
+					if (!response.ok) {
+						throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+					}
+					return response;
+				} catch (error) {
+					handleNetworkError(error, 'safeFetch');
+					throw error;
+				}
+			}
+			
+			// Перехватываем все fetch запросы для обработки ошибок
+			const originalFetch = window.fetch;
+			window.fetch = async function(...args) {
+				try {
+					return await originalFetch.apply(this, args);
+				} catch (error) {
+					handleNetworkError(error, 'fetch');
+					throw error;
+				}
+			};
+			
+			// Инициализация статуса соединения
+			updateOnlineStatus();
 		</script>
 	</body>
 </html>
