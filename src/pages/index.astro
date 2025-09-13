@@ -219,7 +219,6 @@ function getCurrentLessonInfo() {
 				background: var(--container-bg);
 				border-radius: 0;
 				box-shadow: 0 4px 6px var(--shadow-color);
-				overflow: hidden;
 			}
 
 			
@@ -229,6 +228,7 @@ function getCurrentLessonInfo() {
 				}
 				
 				.container {
+					overflow: hidden;
 					border-radius: 12px;
 				}
 			}
@@ -279,24 +279,41 @@ function getCurrentLessonInfo() {
 					font-size: 0.9rem;
 					padding: 4px 12px;
 				}
+				
+				
+				/* На мобильных убираем grid и делаем вертикальный список */
+				.schedule-grid {
+					display: block;
+				}
+				
+				/* Убираем скругления на мобильных для лучшей работы sticky */
+				.day-section {
+					border-radius: 0 !important;
+					margin-bottom: 0;
+				}
 			}
 			.schedule-grid {
 				display: grid;
 				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 				gap: 20px;
 			}
-			.day-card {
+			.day-section {
 				background: var(--card-bg);
 				border-radius: 8px;
-				padding: 20px;
+				margin-bottom: 20px;
 			}
 			.day-header {
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
 				margin-bottom: 20px;
-				padding-bottom: 15px;
+				padding: 15px 20px;
 				border-bottom: 2px solid var(--border-color);
+				background: var(--card-bg);
+				position: sticky;
+				top: 0;
+				z-index: 10;
+				box-shadow: 0 2px 4px var(--shadow-color);
 			}
 			.day-name {
 				font-size: 1.6rem;
@@ -431,8 +448,9 @@ function getCurrentLessonInfo() {
 				white-space: nowrap;
 			}
 			
-			.schedule-container {
+			.day-content {
 				position: relative;
+				padding: 0 20px 20px 20px;
 			}
 			
 			.lesson-slot {
@@ -505,13 +523,13 @@ function getCurrentLessonInfo() {
 					const isCurrentDay = parseDate(day.date).getTime() === today.getTime();
 					
 					return (
-						<div class="day-card">
+						<div class="day-section">
 							<div class="day-header">
 								<div class="day-name">{day.dayName}</div>
 								<div class="day-date">{day.date}</div>
 							</div>
 							
-							<div class="schedule-container">
+							<div class="day-content">
 								{isCurrentDay && <div id="timeIndicator" class="time-indicator" style="display: none;"></div>}
 								
 								{day.lessons.map((lesson, index) => {
@@ -584,7 +602,7 @@ function getCurrentLessonInfo() {
 			// Функция для получения информации о текущем уроке (дублируем серверную логику)
 			function getCurrentLessonInfo() {
 				const currentTime = new Date().toTimeString().slice(0, 5);
-				const currentDayContainer = document.querySelector('.day-card');
+				const currentDayContainer = document.querySelector('.day-section');
 				
 				// Проверяем, является ли сегодня выходным
 				const today = new Date();
