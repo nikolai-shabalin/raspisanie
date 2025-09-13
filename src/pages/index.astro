@@ -1,5 +1,5 @@
 ---
-import scheduleData from '../data/schedule-simplified.json';
+import scheduleData from '../data/structured-schedule-data.json';
 
 // Определяем текущую дату
 const now = new Date();
@@ -17,6 +17,31 @@ const filteredDays = scheduleData.days.filter((day) => {
 	// Показываем день, если его дата >= сегодняшней даты И есть занятия
 	return dayDate >= today && day.lessons.length > 0;
 });
+
+// Получаем текущий день для отображения полоски времени
+const currentDay = filteredDays.find(day => {
+	const dayDate = parseDate(day.date);
+	return dayDate.getTime() === today.getTime();
+});
+
+// Функция для получения текущего времени в формате HH:MM
+function getCurrentTime() {
+	const now = new Date();
+	return now.toTimeString().slice(0, 5);
+}
+
+// Функция для проверки, находится ли текущее время в определенном временном слоте
+function isTimeInSlot(currentTime: string, startTime: string, endTime: string): boolean {
+	const current = currentTime.split(':').map(Number);
+	const start = startTime.split(':').map(Number);
+	const end = endTime.split(':').map(Number);
+	
+	const currentMinutes = current[0] * 60 + current[1];
+	const startMinutes = start[0] * 60 + start[1];
+	const endMinutes = end[0] * 60 + end[1];
+	
+	return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
+}
 ---
 
 <html lang="ru">
@@ -100,6 +125,7 @@ const filteredDays = scheduleData.days.filter((day) => {
 				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 			}
 			.lesson-time {
+				padding: 0 5px;
 				font-weight: 600;
 				color: #667eea;
 				margin-bottom: 8px;
@@ -138,6 +164,76 @@ const filteredDays = scheduleData.days.filter((day) => {
 				font-size: 0.9rem;
 				color: #666;
 			}
+			
+			/* Стили для полоски времени */
+			.time-indicator {
+				position: absolute;
+				left: 0;
+				right: 0;
+				height: 2px;
+				background: #ea4335;
+				z-index: 10;
+				box-shadow: 0 0 10px rgba(234, 67, 53, 0.5);
+				transition: top 0.3s ease;
+			}
+			
+			.time-indicator::before {
+				content: '';
+				position: absolute;
+				left: -6px;
+				top: -4px;
+				width: 10px;
+				height: 10px;
+				background: #ea4335;
+				border-radius: 50%;
+				box-shadow: 0 0 5px rgba(234, 67, 53, 0.8);
+			}
+			
+			.time-indicator::after {
+				content: attr(data-time);
+				position: absolute;
+				right: 10px;
+				top: -8px;
+				background: #ea4335;
+				color: white;
+				padding: 2px 6px;
+				border-radius: 3px;
+				font-size: 11px;
+				font-weight: 500;
+				white-space: nowrap;
+			}
+			
+			.schedule-container {
+				position: relative;
+			}
+			
+			.lesson-slot {
+				position: relative;
+				border-radius: 6px;
+				padding: 15px 0;
+				margin-bottom: 10px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+				transition: all 0.3s ease;
+			}
+			
+			.lesson-slot.current-slot {
+				background: linear-gradient(135deg, #f0f8ff 0%, #f5f0ff 100%);
+				border: 2px solid #667eea;
+				box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+			}
+
+			.current-slot .activity {
+				border: none;
+			}
+			
+			.lesson-slot.past-slot {
+				opacity: 0.6;
+				background: #f5f5f5;
+			}
+			
+			.lesson-slot.future-slot {
+				background: #fafafa;
+			}
 		</style>
 	</head>
 	<body>
@@ -149,27 +245,51 @@ const filteredDays = scheduleData.days.filter((day) => {
 			</div>
 			
 			<div class="schedule-grid">
-				{filteredDays.map((day) => (
-					<div class="day-card">
-						<div class="day-header">
-							<div class="day-name">{day.dayName}</div>
-							<div class="day-date">{day.date}</div>
-						</div>
-						
-						{day.lessons.map((lesson) => (
-							<div class="lesson">
-								<div class="lesson-time">{lesson.time}</div>
-								{lesson.activities.map((activity) => (
-									<div class="activity">
-										<div class="subject">{activity.subject}</div>
-										{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
-										{activity.room && <div class="room">🏢 {activity.room}</div>}
-									</div>
-								))}
+				{filteredDays.map((day) => {
+					const isCurrentDay = parseDate(day.date).getTime() === today.getTime();
+					
+					return (
+						<div class="day-card">
+							<div class="day-header">
+								<div class="day-name">{day.dayName}</div>
+								<div class="day-date">{day.date}</div>
 							</div>
-						))}
-					</div>
-				))}
+							
+							<div class="schedule-container">
+								{isCurrentDay && <div id="timeIndicator" class="time-indicator" style="display: none;"></div>}
+								
+								{day.lessons.map((lesson, index) => {
+									let slotClass = 'lesson-slot';
+									
+									// Применяем временные классы только для текущего дня
+									if (isCurrentDay) {
+										const currentTime = getCurrentTime();
+										const isCurrent = isTimeInSlot(currentTime, lesson.timeSlot.start, lesson.timeSlot.end);
+										const isPast = currentTime > lesson.timeSlot.end;
+										const isFuture = currentTime < lesson.timeSlot.start;
+										
+										if (isCurrent) slotClass += ' current-slot';
+										else if (isPast) slotClass += ' past-slot';
+										else if (isFuture) slotClass += ' future-slot';
+									}
+									
+									return (
+										<div class={slotClass} data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
+											<div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
+											{lesson.lessons.map((activity) => (
+												<div class="activity">
+													<div class="subject">{activity.subject}</div>
+													{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
+													{activity.room && <div class="room">🏢 {activity.room}</div>}
+												</div>
+											))}
+										</div>
+									);
+								})}
+							</div>
+						</div>
+					);
+				})}
 			</div>
 			
 			<div class="metadata">
@@ -178,5 +298,97 @@ const filteredDays = scheduleData.days.filter((day) => {
 				<p>Дата последнего парсинга: {new Date(scheduleData.metadata.lastModified).toLocaleString('ru-RU')}</p>
 			</div>
 		</div>
+		
+		<script>
+			// @ts-nocheck
+			// Функция для проверки времени в слоте (дублируем серверную логику)
+			/**
+			 * @param {string} currentTime
+			 * @param {string} startTime
+			 * @param {string} endTime
+			 * @returns {boolean}
+			 */
+			function isTimeInSlot(/** @type {string} */ currentTime, /** @type {string} */ startTime, /** @type {string} */ endTime) {
+				const current = currentTime.split(':').map(Number);
+				const start = startTime.split(':').map(Number);
+				const end = endTime.split(':').map(Number);
+				
+				const currentMinutes = current[0] * 60 + current[1];
+				const startMinutes = start[0] * 60 + start[1];
+				const endMinutes = end[0] * 60 + end[1];
+				
+				return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
+			}
+			
+			// Функция для обновления полоски времени
+			function updateTimeIndicator() {
+				const timeIndicator = document.getElementById('timeIndicator');
+				if (!timeIndicator) return;
+				
+				const currentTime = new Date();
+				const currentTimeString = currentTime.toTimeString().slice(0, 5);
+				
+				// Находим текущий временной слот в текущем дне
+				const currentSlot = document.querySelector('.current-slot');
+				const container = timeIndicator.parentElement;
+				
+				if (currentSlot && container) {
+					const slotRect = currentSlot.getBoundingClientRect();
+					const containerRect = container.getBoundingClientRect();
+					
+					// Позиционируем полоску времени относительно контейнера дня
+					const relativeTop = slotRect.top - containerRect.top;
+					const slotHeight = slotRect.height;
+					const startTime = currentSlot.getAttribute('data-start');
+					const endTime = currentSlot.getAttribute('data-end');
+					
+					if (startTime && endTime) {
+						// Вычисляем позицию внутри слота
+						const startMinutes = parseInt(startTime.split(':')[0]) * 60 + parseInt(startTime.split(':')[1]);
+						const endMinutes = parseInt(endTime.split(':')[0]) * 60 + parseInt(endTime.split(':')[1]);
+						const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
+						
+						const progress = (currentMinutes - startMinutes) / (endMinutes - startMinutes);
+						const positionInSlot = progress * slotHeight;
+						
+						timeIndicator.style.top = (relativeTop + positionInSlot) + 'px';
+						timeIndicator.style.display = 'block';
+						timeIndicator.setAttribute('data-time', currentTimeString);
+					}
+				} else {
+					timeIndicator.style.display = 'none';
+				}
+				
+				// Обновляем классы только для слотов в текущем дне
+				const currentDayContainer = timeIndicator.parentElement;
+				if (currentDayContainer) {
+					currentDayContainer.querySelectorAll('.lesson-slot').forEach(slot => {
+						const startTime = slot.getAttribute('data-start');
+						const endTime = slot.getAttribute('data-end');
+						const currentTimeStr = currentTimeString;
+						
+						if (startTime && endTime) {
+							slot.classList.remove('current-slot', 'past-slot', 'future-slot');
+							
+							if (isTimeInSlot(currentTimeStr, startTime, endTime)) {
+								slot.classList.add('current-slot');
+							} else if (currentTimeStr > endTime) {
+								slot.classList.add('past-slot');
+							} else if (currentTimeStr < startTime) {
+								slot.classList.add('future-slot');
+							}
+						}
+					});
+				}
+			}
+			
+			// Обновляем полоску времени каждую минуту
+			updateTimeIndicator();
+			setInterval(updateTimeIndicator, 60000);
+			
+			// Обновляем при прокрутке
+			window.addEventListener('scroll', updateTimeIndicator);
+			window.addEventListener('resize', updateTimeIndicator);
+		</script>
 	</body>
 </html>
