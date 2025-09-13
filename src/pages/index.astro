@@ -166,6 +166,17 @@ function getCurrentLessonInfo() {
 				--shadow-color: rgba(0, 0, 0, 0.1);
 				--gradient-start: #667eea;
 				--gradient-end: #764ba2;
+
+				/* Цвета для предметов */
+				--subject-study: #4CAF50; /* учебный блок - зеленый */
+				--subject-english: #2196F3; /* английский - синий */
+				--subject-sport: #FF9800; /* спорт - оранжевый */
+				--subject-walk: #8BC34A; /* прогулка - светло-зеленый */
+				--subject-lunch: #FF5722; /* обед - красно-оранжевый */
+				--subject-choice: #9C27B0; /* по выбору - фиолетовый */
+				--subject-thinking: #00BCD4; /* мышление - голубой */
+				--subject-tutor: #3F51B5; /* тьюторский час - индиго */
+				--subject-neuron: #E91E63; /* Нейрон - розовый */
 			}
 
 			@media (prefers-color-scheme: dark) {
@@ -181,6 +192,17 @@ function getCurrentLessonInfo() {
 					--shadow-color: rgba(0, 0, 0, 0.3);
 					--gradient-start: #4a5d9e;
 					--gradient-end: #553677;
+
+					/* Темные версии цветов для предметов */
+					--subject-study: #81C784; /* учебный блок - темно-зеленый */
+					--subject-english: #64B5F6; /* английский - темно-синий */
+					--subject-sport: #FFB74D; /* спорт - темно-оранжевый */
+					--subject-walk: #AED581; /* прогулка - темный светло-зеленый */
+					--subject-lunch: #FF8A65; /* обед - темный красно-оранжевый */
+					--subject-choice: #BA68C8; /* по выбору - темно-фиолетовый */
+					--subject-thinking: #4DD0E1; /* мышление - темно-голубой */
+					--subject-tutor: #7986CB; /* тьюторский час - темный индиго */
+					--subject-neuron: #F06292; /* Нейрон - темно-розовый */
 				}
 			}
 
@@ -281,6 +303,45 @@ function getCurrentLessonInfo() {
 				padding: 10px;
 				margin-bottom: 8px;
 				border-left: 3px solid var(--gradient-start);
+				transition: all 0.3s ease;
+			}
+
+			/* Стили для разных предметов */
+			.activity[data-subject="учебный блок"] {
+				border-left-color: var(--subject-study);
+				background: color-mix(in srgb, var(--subject-study) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="английский"] {
+				border-left-color: var(--subject-english);
+				background: color-mix(in srgb, var(--subject-english) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="спорт"] {
+				border-left-color: var(--subject-sport);
+				background: color-mix(in srgb, var(--subject-sport) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="прогулка"] {
+				border-left-color: var(--subject-walk);
+				background: color-mix(in srgb, var(--subject-walk) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="обед"] {
+				border-left-color: var(--subject-lunch);
+				background: color-mix(in srgb, var(--subject-lunch) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="по выбору"] {
+				border-left-color: var(--subject-choice);
+				background: color-mix(in srgb, var(--subject-choice) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="мышление"] {
+				border-left-color: var(--subject-thinking);
+				background: color-mix(in srgb, var(--subject-thinking) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="тьюторский час"] {
+				border-left-color: var(--subject-tutor);
+				background: color-mix(in srgb, var(--subject-tutor) 10%, var(--activity-bg));
+			}
+			.activity[data-subject="Нейрон"] {
+				border-left-color: var(--subject-neuron);
+				background: color-mix(in srgb, var(--subject-neuron) 10%, var(--activity-bg));
 			}
 			.activity:last-child {
 				margin-bottom: 0;
@@ -449,7 +510,7 @@ function getCurrentLessonInfo() {
 										<div class={slotClass} data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
 											<div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
 											{lesson.lessons.map((activity) => (
-												<div class="activity">
+												<div class="activity" data-subject={activity.subject}>
 													<div class="subject">{activity.subject}</div>
 													{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
 													{activity.room && <div class="room">🏢 {activity.room}</div>}
