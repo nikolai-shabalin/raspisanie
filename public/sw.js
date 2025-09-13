@@ -2,7 +2,7 @@ const CACHE_NAME = 'raspisanie-v1.2.0';
 const STATIC_CACHE = 'raspisanie-static-v1.2.0';
 const DATA_CACHE = 'raspisanie-data-v1.2.0';
 
-// Статические ресурсы для кэширования
+// Статические ресурсы для кэширования (относительные пути от index.html)
 const urlsToCache = [
   './',
   './favicon.svg',
@@ -18,10 +18,8 @@ const urlsToCache = [
   './screenshot-desktop.png'
 ];
 
-// Данные для кэширования
-const dataUrlsToCache = [
-  './src/data/structured-schedule-data.json'
-];
+// Данные для кэширования (данные уже встроены в HTML)
+const dataUrlsToCache = [];
 
 // Установка Service Worker
 self.addEventListener('install', (event) => {
@@ -86,9 +84,10 @@ async function handleRequest(request) {
       return await cacheFirst(request, STATIC_CACHE);
     }
     
-    // Стратегия для данных
+    // Стратегия для данных (данные уже встроены в HTML, поэтому пропускаем)
     if (isDataRequest(request)) {
-      return await networkFirst(request, DATA_CACHE);
+      // Возвращаем 404 для запросов к JSON файлам, так как данные встроены в HTML
+      return new Response('Data is embedded in HTML', { status: 404, statusText: 'Not Found' });
     }
     
     // Стратегия для HTML страниц
