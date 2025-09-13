@@ -1,5 +1,22 @@
 ---
 import scheduleData from '../data/schedule-simplified.json';
+
+// Определяем текущую дату
+const now = new Date();
+const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // Убираем время, оставляем только дату
+
+// Функция для парсинга даты из формата DD.MM.YYYY
+function parseDate(dateString: string) {
+	const [day, month, year] = dateString.split('.');
+	return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+}
+
+// Фильтруем дни - показываем только текущий день и следующие, исключаем дни без занятий
+const filteredDays = scheduleData.days.filter((day) => {
+	const dayDate = parseDate(day.date);
+	// Показываем день, если его дата >= сегодняшней даты И есть занятия
+	return dayDate >= today && day.lessons.length > 0;
+});
 ---
 
 <html lang="ru">
@@ -40,16 +57,24 @@ import scheduleData from '../data/schedule-simplified.json';
 				font-size: 1.2rem;
 				opacity: 0.9;
 			}
+			.current-day {
+				margin-top: 8px;
+				font-size: 1rem;
+				opacity: 0.8;
+				background: rgba(255, 255, 255, 0.2);
+				padding: 8px 16px;
+				border-radius: 20px;
+				display: inline-block;
+			}
 			.schedule-grid {
 				display: grid;
 				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 				gap: 20px;
-				padding: 30px;
 			}
 			.day-card {
 				background: #fafafa;
 				border-radius: 8px;
-				padding: 20px 0;
+				padding: 20px;
 			}
 			.day-header {
 				display: flex;
@@ -69,7 +94,6 @@ import scheduleData from '../data/schedule-simplified.json';
 				color: #666;
 			}
 			.lesson {
-				background: white;
 				border-radius: 6px;
 				padding: 15px 0;
 				margin-bottom: 10px;
@@ -121,32 +145,29 @@ import scheduleData from '../data/schedule-simplified.json';
 			<div class="header">
 				<h1>Расписание уроков</h1>
 				<div class="week-range">{scheduleData.weekRange}</div>
+				<div class="current-day">Сегодня: {today.toLocaleDateString('ru-RU', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</div>
 			</div>
 			
 			<div class="schedule-grid">
-				{scheduleData.days.map((day) => (
+				{filteredDays.map((day) => (
 					<div class="day-card">
 						<div class="day-header">
 							<div class="day-name">{day.dayName}</div>
 							<div class="day-date">{day.date}</div>
 						</div>
 						
-						{day.lessons.length > 0 ? (
-							day.lessons.map((lesson) => (
-								<div class="lesson">
-									<div class="lesson-time">{lesson.time}</div>
-									{lesson.activities.map((activity) => (
-										<div class="activity">
-											<div class="subject">{activity.subject}</div>
-											{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
-											{activity.room && <div class="room">🏢 {activity.room}</div>}
-										</div>
-									))}
-								</div>
-							))
-						) : (
-							<div class="no-lessons">Нет занятий</div>
-						)}
+						{day.lessons.map((lesson) => (
+							<div class="lesson">
+								<div class="lesson-time">{lesson.time}</div>
+								{lesson.activities.map((activity) => (
+									<div class="activity">
+										<div class="subject">{activity.subject}</div>
+										{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
+										{activity.room && <div class="room">🏢 {activity.room}</div>}
+									</div>
+								))}
+							</div>
+						))}
 					</div>
 				))}
 			</div>
@@ -157,5 +178,5 @@ import scheduleData from '../data/schedule-simplified.json';
 				<p>Дата последнего парсинга: {new Date(scheduleData.metadata.lastModified).toLocaleString('ru-RU')}</p>
 			</div>
 		</div>
-	</body>ы
+	</body>
 </html>
