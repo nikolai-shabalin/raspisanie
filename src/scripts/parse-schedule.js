@@ -1,9 +1,19 @@
 import AdvancedScheduleParser from '../parser/advanced-schedule-parser.js';
 
-const SCHEDULE_URL = 'https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-15';
+// Получаем URL из аргументов командной строки
+const SCHEDULE_URL = process.argv[2];
+
+// Проверяем, что URL передан
+if (!SCHEDULE_URL) {
+  console.error('❌ Ошибка: URL не указан!');
+  console.error('📝 Использование: pnpm run parse "https://schedule.mstimetables.ru/..."');
+  console.error('📝 Пример: pnpm run parse "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-22"');
+  process.exit(1);
+}
 
 async function main() {
   console.log('🚀 Запуск парсера расписания...');
+  console.log(`🔗 URL: ${SCHEDULE_URL}`);
   
   const parser = new AdvancedScheduleParser();
   

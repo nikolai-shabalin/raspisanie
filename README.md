@@ -62,6 +62,23 @@ pnpm run dev
 
 Откройте http://localhost:4321 в браузере.
 
+## 🚀 Использование парсера
+
+### Парсинг расписания
+```bash
+# Парсинг с указанием URL
+pnpm run parse "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-22"
+pnpm run parse-structured "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-22"
+```
+
+**⚠️ Важно:** URL обязателен! Если не указать URL, скрипт завершится с ошибкой.
+
+### Примеры для разных недель
+```bash
+# Неделя 15 сентября 2025
+pnpm run parse "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-15"
+```
+
 ## 📊 Извлеченные данные
 
 Парсер извлекает следующую информацию:
