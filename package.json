@@ -8,7 +8,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "parse": "node src/scripts/parse-schedule.js",
-    "parse-structured": "node src/scripts/parse-structured-schedule.js"
+    "parse-structured": "node src/scripts/parse-structured-schedule.js",
+    "generate-icons": "node scripts/generate-icons.js",
+    "pwa-check": "echo 'Откройте http://localhost:4321/pwa-check.html для проверки PWA'"
   },
   "dependencies": {
     "astro": "^5.13.7",

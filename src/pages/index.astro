@@ -124,8 +124,35 @@ function getCurrentLessonInfo() {
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta name="generator" content={Astro.generator} />
+		
+		<!-- PWA Meta Tags -->
+		<meta name="application-name" content="Расписание уроков 1М" />
+		<meta name="description" content="Приложение для просмотра расписания уроков класса 1М" />
+		<meta name="theme-color" content="#667eea" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="Расписание" />
+		<meta name="msapplication-TileColor" content="#667eea" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		
+		<!-- PWA Manifest -->
+		<link rel="manifest" href="./manifest.json" />
+		
+		<!-- Apple Touch Icons -->
+		<link rel="apple-touch-icon" href="./icon-192.svg" />
+		<link rel="apple-touch-icon" sizes="152x152" href="./icon-144.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./icon-192.svg" />
+		<link rel="apple-touch-icon" sizes="167x167" href="./icon-144.svg" />
+		
+		<!-- Favicons -->
+		<link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg" />
+		<link rel="icon" type="image/svg+xml" sizes="192x192" href="./icon-192.svg" />
+		<link rel="icon" type="image/svg+xml" sizes="512x512" href="./icon-512.svg" />
+		
+		<link rel="icon" href="./favicon.ico" />
+
 		<title>Расписание уроков 1М</title>
 		<style>
 			body {
@@ -571,6 +598,33 @@ function getCurrentLessonInfo() {
 			// Обновляем при прокрутке
 			window.addEventListener('scroll', updateTimeIndicator);
 			window.addEventListener('resize', updateTimeIndicator);
+			
+			// Регистрация Service Worker для PWA
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('./sw.js')
+						.then((registration) => {
+							// SW зарегистрирован
+						})
+						.catch((registrationError) => {
+							// Ошибка регистрации SW
+						});
+				});
+			}
+			
+			// Обработка установки PWA
+			let deferredPrompt;
+			window.addEventListener('beforeinstallprompt', (e) => {
+				// Предотвращаем автоматическое появление баннера установки
+				e.preventDefault();
+				// Сохраняем событие для последующего использования
+				deferredPrompt = e;
+			});
+			
+			// Обработка успешной установки
+			window.addEventListener('appinstalled', (evt) => {
+				// PWA установлено
+			});
 		</script>
 	</body>
 </html>
