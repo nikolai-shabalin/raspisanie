@@ -1,6 +1,6 @@
-const CACHE_NAME = 'raspisanie-v1.1.0';
-const STATIC_CACHE = 'raspisanie-static-v1.1.0';
-const DATA_CACHE = 'raspisanie-data-v1.1.0';
+const CACHE_NAME = 'raspisanie-v1.2.0';
+const STATIC_CACHE = 'raspisanie-static-v1.2.0';
+const DATA_CACHE = 'raspisanie-data-v1.2.0';
 
 // Статические ресурсы для кэширования
 const urlsToCache = [
@@ -45,11 +45,12 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     Promise.all([
-      // Очищаем старые кэши
+      // Очищаем ВСЕ старые кэши (более агрессивная очистка)
       caches.keys().then((cacheNames) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
-            if (cacheName !== STATIC_CACHE && cacheName !== DATA_CACHE) {
+            if (!cacheName.includes('v1.2.0')) {
+              console.log('Удаляем старый кэш:', cacheName);
               return caches.delete(cacheName);
             }
           })
@@ -231,5 +232,26 @@ self.addEventListener('message', (event) => {
   
   if (event.data && event.data.type === 'GET_VERSION') {
     event.ports[0].postMessage({ version: CACHE_NAME });
+  }
+  
+  if (event.data && event.data.type === 'CLEAR_ALL_CACHES') {
+    // Принудительная очистка всех кэшей
+    event.waitUntil(
+      caches.keys().then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cacheName) => {
+            console.log('Принудительно удаляем кэш:', cacheName);
+            return caches.delete(cacheName);
+          })
+        );
+      }).then(() => {
+        // После очистки перезагружаем страницу
+        self.clients.matchAll().then((clients) => {
+          clients.forEach((client) => {
+            client.postMessage({ type: 'CACHE_CLEARED' });
+          });
+        });
+      })
+    );
   }
 });
