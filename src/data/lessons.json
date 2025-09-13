@@ -1,0 +1,746 @@
+[
+  {
+    "id": 36,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Предыдущая неделя15.09.2025 - 21.09.2025Следующая неделяПонедельник-15.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Фонтанка13:0013:45учебный блокГордеева М.Мойка14:0014:45спортГордеева М.Стрелка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01Вторник-16.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45обедтьютор01Мойка13:0013:45учебный блокГордеева М.Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01Среда-17.09.2025#ЗанятияНет занятийЧетверг-18.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Мойка13:0013:45мышлениеГордеева М.Мойка14:0014:45тьюторский часПопова К.,тьютор01Фонтанка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01Пятница-19.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45НейронСырникова К.Мойка13:0013:45обедтьютор01Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01",
+    "className": "lessons-container",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "lessons-container"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"lessons-container\"><div data-v-3aae1591=\"\" data-v-1695a85d=\"\" class=\"navigation-container\" start-date=\"2025-09-15T00:00:00Z\" end-date=\"2025-09-21T00:00:00Z\"><div data-v-3aae1591=\"\" class=\"navigation-content\"><div data-v-3aae1591=\"\" class=\"nav-button prev-button\"><i data-v-3aae1591=\"\" aria-hidden=\"true\" class=\"v-icon notranslate nav-icon mdi mdi-chevron-left theme--light\"></i><span data-v-3aae1591=\"\" class=\"nav-text\">Предыдущая неделя</span></div><div data-v-3aae1591=\"\" class=\"date-section\"><div data-v-3aae1591=\"\" class=\"date-icon\"><i data-v-3aae1591=\"\" aria-hidden=\"true\" class=\"v-icon notranslate mdi mdi-calendar-month theme--light\" style=\"font-size: 18px; color: rgb(100, 116, 139); caret-color: rgb(100, 116, 139);\"></i></div><div data-v-3aae1591=\"\" class=\"date-text\"><div data-v-3aae1591=\"\" class=\"date-range\">15.09.2025 - 21.09.2025</div></div></div><div data-v-3aae1591=\"\" class=\"nav-button next-button\"><span data-v-3aae1591=\"\" class=\"nav-text\">Следующая неделя</span><i data-v-3aae1591=\"\" aria-hidden=\"true\" class=\"v-icon notranslate nav-icon mdi mdi-chevron-right theme--light\"></i></div></div></div><div data-v-1695a85d=\"\" class=\"row mt-8\"><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Понедельник</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">15.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">спорт</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Стрелка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Вторник</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">16.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Среда</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">17.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><td data-v-5ebf6c0a=\"\" style=\"border-right: 0px;\"></td><td data-v-5ebf6c0a=\"\">Нет занятий</td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Четверг</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">18.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">мышление</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">тьюторский час</span><!----></div><div data-v-b20f4bde=\"\">Попова К.,тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Пятница</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">19.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">Нейрон</span><!----></div><div data-v-b20f4bde=\"\">Сырникова К.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div></div></div>"
+  },
+  {
+    "id": 37,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Понедельник-15.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Фонтанка13:0013:45учебный блокГордеева М.Мойка14:0014:45спортГордеева М.Стрелка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01",
+    "className": "lessons-col col col-4",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "lessons-col col col-4"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Понедельник</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">15.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">спорт</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Стрелка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div>"
+  },
+  {
+    "id": 38,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Фонтанка13:0013:45учебный блокГордеева М.Мойка14:0014:45спортГордеева М.Стрелка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01",
+    "className": "table-lessons",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": "table-lessons"
+    },
+    "html": "<table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">спорт</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Стрелка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table>"
+  },
+  {
+    "id": 56,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Вторник-16.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45обедтьютор01Мойка13:0013:45учебный блокГордеева М.Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01",
+    "className": "lessons-col col col-4",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "lessons-col col col-4"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Вторник</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">16.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div>"
+  },
+  {
+    "id": 57,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45обедтьютор01Мойка13:0013:45учебный блокГордеева М.Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01",
+    "className": "table-lessons",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": "table-lessons"
+    },
+    "html": "<table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table>"
+  },
+  {
+    "id": 77,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Среда-17.09.2025#ЗанятияНет занятий",
+    "className": "lessons-col col col-4",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "lessons-col col col-4"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Среда</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">17.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><td data-v-5ebf6c0a=\"\" style=\"border-right: 0px;\"></td><td data-v-5ebf6c0a=\"\">Нет занятий</td></tr></tbody></table></div></div>"
+  },
+  {
+    "id": 78,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#ЗанятияНет занятий",
+    "className": "table-lessons",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": "table-lessons"
+    },
+    "html": "<table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><td data-v-5ebf6c0a=\"\" style=\"border-right: 0px;\"></td><td data-v-5ebf6c0a=\"\">Нет занятий</td></tr></tbody></table>"
+  },
+  {
+    "id": 80,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Четверг-18.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Мойка13:0013:45мышлениеГордеева М.Мойка14:0014:45тьюторский часПопова К.,тьютор01Фонтанка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01",
+    "className": "lessons-col col col-4",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "lessons-col col col-4"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Четверг</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">18.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">мышление</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">тьюторский час</span><!----></div><div data-v-b20f4bde=\"\">Попова К.,тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div>"
+  },
+  {
+    "id": 81,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Мойка13:0013:45мышлениеГордеева М.Мойка14:0014:45тьюторский часПопова К.,тьютор01Фонтанка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01",
+    "className": "table-lessons",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": "table-lessons"
+    },
+    "html": "<table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">мышление</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">тьюторский час</span><!----></div><div data-v-b20f4bde=\"\">Попова К.,тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table>"
+  },
+  {
+    "id": 99,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Пятница-19.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45НейронСырникова К.Мойка13:0013:45обедтьютор01Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01",
+    "className": "lessons-col col col-4",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "lessons-col col col-4"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Пятница</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">19.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">Нейрон</span><!----></div><div data-v-b20f4bde=\"\">Сырникова К.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div>"
+  },
+  {
+    "id": 100,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45НейронСырникова К.Мойка13:0013:45обедтьютор01Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01",
+    "className": "table-lessons",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": "table-lessons"
+    },
+    "html": "<table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">Нейрон</span><!----></div><div data-v-b20f4bde=\"\">Сырникова К.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table>"
+  },
+  {
+    "id": 120,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr>"
+  },
+  {
+    "id": 121,
+    "time": "10:0010:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "10:0010:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 122,
+    "time": "11:0011:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "11:0011:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 123,
+    "time": "12:0012:45",
+    "subject": "обедтьютор01Фонтанка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "12:0012:45обедтьютор01Фонтанка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr>"
+  },
+  {
+    "id": 124,
+    "time": "13:0013:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "13:0013:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 125,
+    "time": "14:0014:45",
+    "subject": "спортГордеева М.Стрелка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "14:0014:45спортГордеева М.Стрелка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">спорт</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Стрелка</div></div></div></td></tr>"
+  },
+  {
+    "id": 126,
+    "time": "15:0015:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "15:0015:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 127,
+    "time": "16:0016:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "16:0016:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 128,
+    "time": "17:0017:45",
+    "subject": "по выборутьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "17:0017:45по выборутьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 129,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr>"
+  },
+  {
+    "id": 130,
+    "time": "10:0010:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "10:0010:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 131,
+    "time": "11:0011:45",
+    "subject": "английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 132,
+    "time": "12:0012:45",
+    "subject": "обедтьютор01Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "12:0012:45обедтьютор01Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 133,
+    "time": "13:0013:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "13:0013:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 134,
+    "time": "14:0014:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "14:0014:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 135,
+    "time": "15:0015:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "15:0015:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 136,
+    "time": "16:0016:45",
+    "subject": "по выборутьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "16:0016:45по выборутьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 137,
+    "time": "17:0017:45",
+    "subject": "по выборутьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "17:0017:45по выборутьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 138,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr>"
+  },
+  {
+    "id": 139,
+    "time": "",
+    "subject": "Нет занятий",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Нет занятий",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\"><td data-v-5ebf6c0a=\"\" style=\"border-right: 0px;\"></td><td data-v-5ebf6c0a=\"\">Нет занятий</td></tr>"
+  },
+  {
+    "id": 140,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr>"
+  },
+  {
+    "id": 141,
+    "time": "10:0010:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "10:0010:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 142,
+    "time": "11:0011:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "11:0011:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 143,
+    "time": "12:0012:45",
+    "subject": "обедтьютор01Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "12:0012:45обедтьютор01Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 144,
+    "time": "13:0013:45",
+    "subject": "мышлениеГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "13:0013:45мышлениеГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">мышление</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 145,
+    "time": "14:0014:45",
+    "subject": "тьюторский часПопова К.,тьютор01Фонтанка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "14:0014:45тьюторский часПопова К.,тьютор01Фонтанка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">тьюторский час</span><!----></div><div data-v-b20f4bde=\"\">Попова К.,тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr>"
+  },
+  {
+    "id": 146,
+    "time": "15:0015:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "15:0015:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 147,
+    "time": "16:0016:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "16:0016:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 148,
+    "time": "17:0017:45",
+    "subject": "по выборутьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "17:0017:45по выборутьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 149,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "#Занятия",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr>"
+  },
+  {
+    "id": 150,
+    "time": "10:0010:45",
+    "subject": "учебный блокГордеева М.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "10:0010:45учебный блокГордеева М.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 151,
+    "time": "11:0011:45",
+    "subject": "английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 152,
+    "time": "12:0012:45",
+    "subject": "НейронСырникова К.Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "12:0012:45НейронСырникова К.Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">Нейрон</span><!----></div><div data-v-b20f4bde=\"\">Сырникова К.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 153,
+    "time": "13:0013:45",
+    "subject": "обедтьютор01Мойка",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "13:0013:45обедтьютор01Мойка",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr>"
+  },
+  {
+    "id": 154,
+    "time": "14:0014:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "14:0014:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 155,
+    "time": "15:0015:45",
+    "subject": "прогулкатьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "15:0015:45прогулкатьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 156,
+    "time": "16:0016:45",
+    "subject": "по выборутьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "16:0016:45по выборутьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 157,
+    "time": "17:0017:45",
+    "subject": "по выборутьютор01",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "17:0017:45по выборутьютор01",
+    "className": "",
+    "attributes": {
+      "data-v-5ebf6c0a": "",
+      "class": ""
+    },
+    "html": "<tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr>"
+  },
+  {
+    "id": 158,
+    "time": "#",
+    "subject": "Занятия",
+    "teacher": "",
+    "room": "",
+    "group": "",
+    "fullText": "Понедельник-15.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Фонтанка13:0013:45учебный блокГордеева М.Мойка14:0014:45спортГордеева М.Стрелка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01Вторник-16.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45обедтьютор01Мойка13:0013:45учебный блокГордеева М.Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01Среда-17.09.2025#ЗанятияНет занятийЧетверг-18.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45учебный блокГордеева М.Мойка12:0012:45обедтьютор01Мойка13:0013:45мышлениеГордеева М.Мойка14:0014:45тьюторский часПопова К.,тьютор01Фонтанка15:0015:45прогулкатьютор0116:0016:45прогулкатьютор0117:0017:45по выборутьютор01Пятница-19.09.2025#Занятия10:0010:45учебный блокГордеева М.Мойка11:0011:45английскийКудрявцева Е.12 коллегийанглийскийСахно И.АнглетеранглийскийЛогинова Ю.Мойка12:0012:45НейронСырникова К.Мойка13:0013:45обедтьютор01Мойка14:0014:45прогулкатьютор0115:0015:45прогулкатьютор0116:0016:45по выборутьютор0117:0017:45по выборутьютор01",
+    "className": "row mt-8",
+    "attributes": {
+      "data-v-1695a85d": "",
+      "class": "row mt-8"
+    },
+    "html": "<div data-v-1695a85d=\"\" class=\"row mt-8\"><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Понедельник</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">15.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">спорт</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Стрелка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Вторник</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">16.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Среда</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">17.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><td data-v-5ebf6c0a=\"\" style=\"border-right: 0px;\"></td><td data-v-5ebf6c0a=\"\">Нет занятий</td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Четверг</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">18.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">мышление</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">тьюторский час</span><!----></div><div data-v-b20f4bde=\"\">Попова К.,тьютор01</div><div data-v-b20f4bde=\"\">Фонтанка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div><div data-v-1695a85d=\"\" class=\"lessons-col col col-4\"><div data-v-5ebf6c0a=\"\" data-v-1695a85d=\"\" class=\"v-card v-sheet theme--light\"><div data-v-5ebf6c0a=\"\" class=\"weekday-name\"><span data-v-5ebf6c0a=\"\">Пятница</span><!----><span data-v-5ebf6c0a=\"\" class=\"mx-1\">-</span><span data-v-5ebf6c0a=\"\">19.09.2025</span></div><table data-v-5ebf6c0a=\"\" class=\"table-lessons\"><thead data-v-5ebf6c0a=\"\"><tr data-v-5ebf6c0a=\"\"><th data-v-5ebf6c0a=\"\" class=\"time\">#</th><th data-v-5ebf6c0a=\"\" class=\"caption-lessons\">Занятия</th></tr></thead><tbody data-v-5ebf6c0a=\"\"><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">10:00</div><div data-v-5ebf6c0a=\"\">10:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">учебный блок</span><!----></div><div data-v-b20f4bde=\"\">Гордеева М.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">11:00</div><div data-v-5ebf6c0a=\"\">11:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Кудрявцева Е.</div><div data-v-b20f4bde=\"\">12 коллегий</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Сахно И.</div><div data-v-b20f4bde=\"\">Англетер</div></div><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">английский</span><!----></div><div data-v-b20f4bde=\"\">Логинова Ю.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">12:00</div><div data-v-5ebf6c0a=\"\">12:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">Нейрон</span><!----></div><div data-v-b20f4bde=\"\">Сырникова К.</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">13:00</div><div data-v-5ebf6c0a=\"\">13:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">обед</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><div data-v-b20f4bde=\"\">Мойка</div></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">14:00</div><div data-v-5ebf6c0a=\"\">14:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">15:00</div><div data-v-5ebf6c0a=\"\">15:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">прогулка</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">16:00</div><div data-v-5ebf6c0a=\"\">16:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr><!----><tr data-v-5ebf6c0a=\"\" class=\"\"><td data-v-5ebf6c0a=\"\" class=\"time\"><div data-v-5ebf6c0a=\"\">17:00</div><div data-v-5ebf6c0a=\"\">17:45</div></td><td data-v-b20f4bde=\"\" data-v-5ebf6c0a=\"\"><div data-v-b20f4bde=\"\" class=\"row-lessons\"><div data-v-b20f4bde=\"\" class=\"lesson\"><div data-v-b20f4bde=\"\"><span data-v-b20f4bde=\"\">по выбору</span><!----></div><div data-v-b20f4bde=\"\">тьютор01</div><!----></div></div></td></tr></tbody></table></div></div></div>"
+  }
+]

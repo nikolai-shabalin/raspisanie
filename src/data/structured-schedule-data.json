@@ -1,0 +1,520 @@
+{
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-15",
+  "title": "publications",
+  "timestamp": "2025-09-13T09:18:37.060Z",
+  "weekRange": "15.09.2025 - 21.09.2025",
+  "days": [
+    {
+      "dayIndex": 0,
+      "dayName": "Понедельник",
+      "date": "15.09.2025",
+      "lessons": [
+        {
+          "timeSlot": {
+            "start": "10:00",
+            "end": "10:45",
+            "display": "10:0010:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "11:00",
+            "end": "11:45",
+            "display": "11:0011:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "12:00",
+            "end": "12:45",
+            "display": "12:0012:45"
+          },
+          "lessons": [
+            {
+              "subject": "обед",
+              "teacher": "тьютор01",
+              "room": "Фонтанка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "13:00",
+            "end": "13:45",
+            "display": "13:0013:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "14:00",
+            "end": "14:45",
+            "display": "14:0014:45"
+          },
+          "lessons": [
+            {
+              "subject": "спорт",
+              "teacher": "Гордеева М.",
+              "room": "Стрелка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "15:00",
+            "end": "15:45",
+            "display": "15:0015:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "16:00",
+            "end": "16:45",
+            "display": "16:0016:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "17:00",
+            "end": "17:45",
+            "display": "17:0017:45"
+          },
+          "lessons": [
+            {
+              "subject": "по выбору",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 1,
+      "dayName": "Вторник",
+      "date": "16.09.2025",
+      "lessons": [
+        {
+          "timeSlot": {
+            "start": "10:00",
+            "end": "10:45",
+            "display": "10:0010:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "11:00",
+            "end": "11:45",
+            "display": "11:0011:45"
+          },
+          "lessons": [
+            {
+              "subject": "английский",
+              "teacher": "Кудрявцева Е.",
+              "room": "12 коллегий"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Сахно И.",
+              "room": "Англетер"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Логинова Ю.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "12:00",
+            "end": "12:45",
+            "display": "12:0012:45"
+          },
+          "lessons": [
+            {
+              "subject": "обед",
+              "teacher": "тьютор01",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "13:00",
+            "end": "13:45",
+            "display": "13:0013:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "14:00",
+            "end": "14:45",
+            "display": "14:0014:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "15:00",
+            "end": "15:45",
+            "display": "15:0015:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "16:00",
+            "end": "16:45",
+            "display": "16:0016:45"
+          },
+          "lessons": [
+            {
+              "subject": "по выбору",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "17:00",
+            "end": "17:45",
+            "display": "17:0017:45"
+          },
+          "lessons": [
+            {
+              "subject": "по выбору",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "dayName": "Среда",
+      "date": "17.09.2025",
+      "lessons": []
+    },
+    {
+      "dayIndex": 3,
+      "dayName": "Четверг",
+      "date": "18.09.2025",
+      "lessons": [
+        {
+          "timeSlot": {
+            "start": "10:00",
+            "end": "10:45",
+            "display": "10:0010:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "11:00",
+            "end": "11:45",
+            "display": "11:0011:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "12:00",
+            "end": "12:45",
+            "display": "12:0012:45"
+          },
+          "lessons": [
+            {
+              "subject": "обед",
+              "teacher": "тьютор01",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "13:00",
+            "end": "13:45",
+            "display": "13:0013:45"
+          },
+          "lessons": [
+            {
+              "subject": "мышление",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "14:00",
+            "end": "14:45",
+            "display": "14:0014:45"
+          },
+          "lessons": [
+            {
+              "subject": "тьюторский час",
+              "teacher": "Попова К.,тьютор01",
+              "room": "Фонтанка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "15:00",
+            "end": "15:45",
+            "display": "15:0015:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "16:00",
+            "end": "16:45",
+            "display": "16:0016:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "17:00",
+            "end": "17:45",
+            "display": "17:0017:45"
+          },
+          "lessons": [
+            {
+              "subject": "по выбору",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "dayName": "Пятница",
+      "date": "19.09.2025",
+      "lessons": [
+        {
+          "timeSlot": {
+            "start": "10:00",
+            "end": "10:45",
+            "display": "10:0010:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева М.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "11:00",
+            "end": "11:45",
+            "display": "11:0011:45"
+          },
+          "lessons": [
+            {
+              "subject": "английский",
+              "teacher": "Кудрявцева Е.",
+              "room": "12 коллегий"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Сахно И.",
+              "room": "Англетер"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Логинова Ю.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "12:00",
+            "end": "12:45",
+            "display": "12:0012:45"
+          },
+          "lessons": [
+            {
+              "subject": "Нейрон",
+              "teacher": "Сырникова К.",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "13:00",
+            "end": "13:45",
+            "display": "13:0013:45"
+          },
+          "lessons": [
+            {
+              "subject": "обед",
+              "teacher": "тьютор01",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "14:00",
+            "end": "14:45",
+            "display": "14:0014:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "15:00",
+            "end": "15:45",
+            "display": "15:0015:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "16:00",
+            "end": "16:45",
+            "display": "16:0016:45"
+          },
+          "lessons": [
+            {
+              "subject": "по выбору",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "17:00",
+            "end": "17:45",
+            "display": "17:0017:45"
+          },
+          "lessons": [
+            {
+              "subject": "по выбору",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "date": "",
+    "groupId": "",
+    "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
+    "pageTitle": "publications",
+    "lastModified": "09/09/2025 23:04:43",
+    "contentLength": 38942,
+    "urlParams": {},
+    "hash": "#/groups/38/lessons?date=2025-09-15"
+  }
+}

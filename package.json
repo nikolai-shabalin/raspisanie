@@ -6,9 +6,13 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "parse": "node src/scripts/parse-schedule.js",
+    "parse-structured": "node src/scripts/parse-structured-schedule.js"
   },
   "dependencies": {
-    "astro": "^5.13.7"
+    "astro": "^5.13.7",
+    "puppeteer": "^23.9.0",
+    "cheerio": "^1.0.0-rc.12"
   }
 }
