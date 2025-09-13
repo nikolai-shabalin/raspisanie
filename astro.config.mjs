@@ -3,6 +3,9 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
+  // Настройки для GitHub Pages
+  site: 'https://nikolai-shabalin.github.io',
+  base: '/raspisanie',
   // Настройки для PWA
   build: {
     assets: 'assets'
