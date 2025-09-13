@@ -42,6 +42,82 @@ function isTimeInSlot(currentTime: string, startTime: string, endTime: string): 
 	
 	return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
 }
+
+// Функция для получения информации о текущем уроке
+function getCurrentLessonInfo() {
+	const currentTime = getCurrentTime();
+	
+	// Проверяем, является ли сегодня выходным
+	const today = new Date();
+	const dayOfWeek = today.getDay(); // 0 = воскресенье, 6 = суббота
+	
+	// Проверяем только текущий день
+	if (!currentDay) {
+		// Если нет данных о текущем дне, проверяем, выходной ли это
+		if (dayOfWeek === 0 || dayOfWeek === 6) {
+			return {
+				hasLesson: false,
+				message: "Выходной"
+			};
+		}
+		return {
+			hasLesson: false,
+			message: "Сейчас нет занятий"
+		};
+	}
+	
+	// Сначала проверяем, выходной ли это день
+	if (dayOfWeek === 0 || dayOfWeek === 6) {
+		return {
+			hasLesson: false,
+			message: "Выходной"
+		};
+	}
+	
+	// Ищем текущий урок
+	for (const lesson of currentDay.lessons) {
+		if (isTimeInSlot(currentTime, lesson.timeSlot.start, lesson.timeSlot.end)) {
+			const activity = lesson.lessons[0]; // Берем первое занятие из слота
+			return {
+				hasLesson: true,
+				message: `Сейчас: ${activity.subject}${activity.room ? ` в ${activity.room}` : ''}${activity.teacher ? ` с ${activity.teacher}` : ''}`,
+				timeSlot: `${lesson.timeSlot.start} - ${lesson.timeSlot.end}`
+			};
+		}
+	}
+	
+	// Если не нашли текущий урок, проверяем, есть ли занятия сегодня
+	if (currentDay.lessons.length === 0) {
+		return {
+			hasLesson: false,
+			message: "Сейчас нет занятий"
+		};
+	}
+	
+	// Проверяем, закончились ли все занятия
+	const lastLesson = currentDay.lessons[currentDay.lessons.length - 1];
+	if (currentTime > lastLesson.timeSlot.end) {
+		return {
+			hasLesson: false,
+			message: "Все занятия на сегодня закончились"
+		};
+	}
+	
+	// Проверяем, еще не начались ли занятия
+	const firstLesson = currentDay.lessons[0];
+	if (currentTime < firstLesson.timeSlot.start) {
+		return {
+			hasLesson: false,
+			message: `Занятия начнутся в ${firstLesson.timeSlot.start}`
+		};
+	}
+	
+	// Между занятиями
+	return {
+		hasLesson: false,
+		message: "Сейчас перерыв между занятиями"
+	};
+}
 ---
 
 <html lang="ru">
@@ -241,7 +317,7 @@ function isTimeInSlot(currentTime: string, startTime: string, endTime: string): 
 			<div class="header">
 				<h1>Расписание уроков</h1>
 				<div class="week-range">{scheduleData.weekRange}</div>
-				<div class="current-day">Сегодня: {today.toLocaleDateString('ru-RU', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</div>
+				<div class="current-day">{getCurrentLessonInfo().message}</div>
 			</div>
 			
 			<div class="schedule-grid">
@@ -320,6 +396,108 @@ function isTimeInSlot(currentTime: string, startTime: string, endTime: string): 
 				return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
 			}
 			
+			// Функция для получения информации о текущем уроке (дублируем серверную логику)
+			function getCurrentLessonInfo() {
+				const currentTime = new Date().toTimeString().slice(0, 5);
+				const currentDayContainer = document.querySelector('.day-card');
+				
+				// Проверяем, является ли сегодня выходным
+				const today = new Date();
+				const dayOfWeek = today.getDay(); // 0 = воскресенье, 6 = суббота
+				
+				if (!currentDayContainer) {
+					// Если нет данных о текущем дне, проверяем, выходной ли это
+					if (dayOfWeek === 0 || dayOfWeek === 6) {
+						return {
+							hasLesson: false,
+							message: "Выходной"
+						};
+					}
+					return {
+						hasLesson: false,
+						message: "Сейчас нет занятий"
+					};
+				}
+				
+				// Сначала проверяем, выходной ли это день
+				if (dayOfWeek === 0 || dayOfWeek === 6) {
+					return {
+						hasLesson: false,
+						message: "Выходной"
+					};
+				}
+				
+				const lessonSlots = currentDayContainer.querySelectorAll('.lesson-slot');
+				
+				// Ищем текущий урок
+				for (const slot of lessonSlots) {
+					const startTime = slot.getAttribute('data-start');
+					const endTime = slot.getAttribute('data-end');
+					
+					if (startTime && endTime && isTimeInSlot(currentTime, startTime, endTime)) {
+						const activity = slot.querySelector('.activity');
+						if (activity) {
+							const subject = activity.querySelector('.subject')?.textContent || '';
+							const teacher = activity.querySelector('.teacher')?.textContent?.replace('👨‍🏫 ', '') || '';
+							const room = activity.querySelector('.room')?.textContent?.replace('🏢 ', '') || '';
+							
+							let message = `Сейчас: ${subject}`;
+							if (room) message += ` в ${room}`;
+							if (teacher) message += ` с ${teacher}`;
+							
+							return {
+								hasLesson: true,
+								message: message,
+								timeSlot: `${startTime} - ${endTime}`
+							};
+						}
+					}
+				}
+				
+				// Если не нашли текущий урок, проверяем статус
+				if (lessonSlots.length === 0) {
+					return {
+						hasLesson: false,
+						message: "Сейчас нет занятий"
+					};
+				}
+				
+				// Проверяем, закончились ли все занятия
+				const lastSlot = lessonSlots[lessonSlots.length - 1];
+				const lastEndTime = lastSlot.getAttribute('data-end');
+				if (lastEndTime && currentTime > lastEndTime) {
+					return {
+						hasLesson: false,
+						message: "Все занятия на сегодня закончились"
+					};
+				}
+				
+				// Проверяем, еще не начались ли занятия
+				const firstSlot = lessonSlots[0];
+				const firstStartTime = firstSlot.getAttribute('data-start');
+				if (firstStartTime && currentTime < firstStartTime) {
+					return {
+						hasLesson: false,
+						message: `Занятия начнутся в ${firstStartTime}`
+					};
+				}
+				
+				// Между занятиями
+				return {
+					hasLesson: false,
+					message: "Сейчас перерыв между занятиями"
+				};
+			}
+			
+			// Функция для обновления информации о текущем уроке
+			function updateCurrentLessonInfo() {
+				const currentDayElement = document.querySelector('.current-day');
+				if (currentDayElement) {
+					const lessonInfo = getCurrentLessonInfo();
+					currentDayElement.textContent = lessonInfo.message;
+				}
+			}
+			
 			// Функция для обновления полоски времени
 			function updateTimeIndicator() {
 				const timeIndicator = document.getElementById('timeIndicator');
@@ -382,9 +560,13 @@ function isTimeInSlot(currentTime: string, startTime: string, endTime: string): 
 				}
 			}
 			
-			// Обновляем полоску времени каждую минуту
+			// Обновляем полоску времени и информацию о текущем уроке каждую минуту
 			updateTimeIndicator();
-			setInterval(updateTimeIndicator, 60000);
+			updateCurrentLessonInfo();
+			setInterval(() => {
+				updateTimeIndicator();
+				updateCurrentLessonInfo();
+			}, 60000);
 			
 			// Обновляем при прокрутке
 			window.addEventListener('scroll', updateTimeIndicator);
