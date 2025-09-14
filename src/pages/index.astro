@@ -43,6 +43,7 @@ function isTimeInSlot(currentTime: string, startTime: string, endTime: string): 
 	return currentMinutes >= startMinutes && currentMinutes <= endMinutes;
 }
 
+
 // Функция для получения информации о текущем уроке
 function getCurrentLessonInfo() {
 	const currentTime = getCurrentTime();
@@ -508,6 +509,132 @@ function getCurrentLessonInfo() {
 					transform: translateX(-50%) translateY(-20px);
 				}
 			}
+			
+			/* Стили для блока событий */
+			.events-section {
+				background: var(--card-bg);
+				margin: 20px;
+				border-radius: 12px;
+				box-shadow: 0 2px 8px var(--shadow-color);
+				overflow: hidden;
+			}
+			
+			.events-section h2 {
+				margin: 0 0 20px 0;
+				font-size: 1.6rem;
+				font-weight: 600;
+				color: var(--text-color);
+				padding: 0 20px;
+			}
+			
+			.events-list {
+				padding: 20px;
+			}
+			
+			.event-item {
+				background: var(--activity-bg);
+				border-radius: 8px;
+				padding: 15px;
+				margin-bottom: 15px;
+				border-left: 4px solid var(--gradient-start);
+				transition: all 0.3s ease;
+				position: relative;
+			}
+			
+			.event-item:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 4px 12px var(--shadow-color);
+			}
+			
+			.event-item:last-child {
+				margin-bottom: 0;
+			}
+			
+			.event-date {
+				font-size: 1.1rem;
+				font-weight: 600;
+				color: var(--gradient-start);
+				margin-bottom: 8px;
+			}
+			
+			.event-title {
+				font-size: 1.2rem;
+				font-weight: 600;
+				color: var(--text-color);
+				margin-bottom: 8px;
+				line-height: 1.4;
+			}
+			
+			
+			.event-location {
+				font-size: 1rem;
+				color: var(--text-secondary);
+				margin-bottom: 12px;
+			}
+			
+			.event-actions {
+				display: flex;
+				gap: 10px;
+				flex-wrap: wrap;
+			}
+			
+			.event-btn {
+				background: var(--gradient-start);
+				color: white;
+				border: none;
+				padding: 8px 16px;
+				border-radius: 20px;
+				font-size: 0.9rem;
+				font-weight: 500;
+				text-decoration: none;
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+				transition: all 0.3s ease;
+				cursor: pointer;
+			}
+			
+			.event-btn:hover {
+				background: var(--gradient-end);
+				transform: translateY(-1px);
+				box-shadow: 0 2px 8px color-mix(in srgb, var(--gradient-start) 30%, transparent);
+			}
+			
+			
+			.no-events {
+				text-align: center;
+				color: var(--text-muted);
+				font-style: italic;
+				padding: 40px 20px;
+			}
+			
+			@media (max-width: 600px) {
+				.events-section {
+					margin: 10px;
+					border-radius: 8px;
+				}
+				
+				.events-section h2 {
+					font-size: 1.4rem;
+					padding: 0 15px;
+				}
+				
+				.events-list {
+					padding: 15px;
+				}
+				
+				.event-item {
+					padding: 12px;
+				}
+				
+				.event-title {
+					font-size: 1.1rem;
+				}
+				
+				.event-btn {
+					justify-content: center;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -516,6 +643,23 @@ function getCurrentLessonInfo() {
 				<h1>Расписание уроков</h1>
 				<div class="week-range">{scheduleData.weekRange}</div>
 				<div class="current-day">{getCurrentLessonInfo().message}</div>
+			</div>
+			
+			<!-- Блок ближайших событий -->
+			<div class="events-section">
+				<h2>📅 Ближайшие события</h2>
+				<div class="events-list">
+					<div class="event-item">
+						<div class="event-date">26 сентября в 16:00</div>
+						<div class="event-title">Сердечные истории вещей – семейное чаепитие первых классов!</div>
+						<div class="event-location">📍 школа ИлИ</div>
+						<div class="event-actions">
+							<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Сердечные истории вещей – семейное чаепитие первых классов!&dates=20240926T130000Z/20240926T140000Z&details=26 сентября, в 16:00, ждем вас в школе ИлИ – будем ещё ближе знакомиться, играть и, конечно, пить чай с угощениями.&location=школа ИлИ" target="_blank" rel="noopener" class="event-btn">
+								📅 Добавить в календарь
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 			
 			<div class="schedule-grid">
