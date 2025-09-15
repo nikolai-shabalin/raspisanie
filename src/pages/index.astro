@@ -746,7 +746,8 @@ function getCurrentLessonInfo() {
 			// Функция для получения информации о текущем уроке (дублируем серверную логику)
 			function getCurrentLessonInfo() {
 				const currentTime = new Date().toTimeString().slice(0, 5);
-				const currentDayContainer = document.querySelector('.day-section');
+				const indicator = document.getElementById('timeIndicator');
+				const currentDayContainer = indicator ? indicator.closest('.day-section') : document.querySelector('.day-section');
 				
 				// Проверяем, является ли сегодня выходным
 				const today = new Date();
@@ -906,8 +907,37 @@ function getCurrentLessonInfo() {
 					});
 				}
 			}
+
+			// Создаем индикатор времени на клиенте, если он не был отрендерен на сервере
+			function ensureTimeIndicatorExists() {
+				if (document.getElementById('timeIndicator')) return;
+
+				// Форматируем сегодняшнюю дату как DD.MM.YYYY
+				const now = new Date();
+				const dd = String(now.getDate()).padStart(2, '0');
+				const mm = String(now.getMonth() + 1).padStart(2, '0');
+				const yyyy = String(now.getFullYear());
+				const todayStr = `${dd}.${mm}.${yyyy}`;
+
+				const daySections = document.querySelectorAll('.day-section');
+				for (const section of daySections) {
+					const dateEl = section.querySelector('.day-date');
+					if (dateEl && dateEl.textContent && dateEl.textContent.trim() === todayStr) {
+						const dayContent = section.querySelector('.day-content');
+						if (dayContent) {
+							const indicator = document.createElement('div');
+							indicator.id = 'timeIndicator';
+							indicator.className = 'time-indicator';
+							indicator.style.display = 'none';
+							dayContent.prepend(indicator);
+						}
+						break;
+					}
+				}
+			}
 			
-			// Обновляем полоску времени и информацию о текущем уроке каждую минуту
+			// Обеспечиваем наличие индикатора, затем выполняем первичное обновление
+			ensureTimeIndicatorExists();
 			updateTimeIndicator();
 			updateCurrentLessonInfo();
 			setInterval(() => {
