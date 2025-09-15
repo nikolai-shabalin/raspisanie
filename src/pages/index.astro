@@ -940,10 +940,6 @@ function getCurrentLessonInfo() {
 			ensureTimeIndicatorExists();
 			updateTimeIndicator();
 			updateCurrentLessonInfo();
-			setInterval(() => {
-				updateTimeIndicator();
-				updateCurrentLessonInfo();
-			}, 60000);
 			
 			// Обновляем при прокрутке
 			window.addEventListener('scroll', updateTimeIndicator);
