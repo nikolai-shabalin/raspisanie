@@ -1,6 +1,6 @@
-const CACHE_NAME = 'raspisanie-v1.3.2';
-const STATIC_CACHE = 'raspisanie-static-v1.3.2';
-const DATA_CACHE = 'raspisanie-data-v1.3.2';
+const CACHE_NAME = 'raspisanie-v1.3.3';
+const STATIC_CACHE = 'raspisanie-static-v1.3.3';
+const DATA_CACHE = 'raspisanie-data-v1.3.3';
 
 // Статические ресурсы для кэширования (относительные пути от index.html)
 const urlsToCache = [
@@ -47,7 +47,7 @@ self.addEventListener('activate', (event) => {
       caches.keys().then((cacheNames) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
-            if (!cacheName.includes('v1.3.2')) {
+            if (!cacheName.includes('v1.3.3')) {
               console.log('Удаляем старый кэш:', cacheName);
               return caches.delete(cacheName);
             }
