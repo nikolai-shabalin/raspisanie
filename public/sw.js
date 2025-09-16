@@ -4,18 +4,7 @@ const DATA_CACHE = 'raspisanie-data-v1.3.4';
 
 // Статические ресурсы для кэширования (относительные пути от index.html)
 const urlsToCache = [
-  './',
-  './favicon.svg',
-  './icon-192.svg',
-  './icon-512.svg',
-  './icon-144.svg',
-  './icon-96.svg',
-  './icon-72.svg',
-  './icon-48.svg',
-  './favicon.ico',
-  './manifest.json',
-  './screenshot-mobile.png',
-  './screenshot-desktop.png'
+  './'
 ];
 
 // Данные для кэширования (данные уже встроены в HTML)
