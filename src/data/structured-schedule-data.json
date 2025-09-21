@@ -1,13 +1,13 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-15",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-22",
   "title": "publications",
-  "timestamp": "2025-09-13T09:26:04.106Z",
-  "weekRange": "15.09.2025 - 21.09.2025",
+  "timestamp": "2025-09-21T17:33:14.909Z",
+  "weekRange": "22.09.2025 - 28.09.2025",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "15.09.2025",
+      "date": "22.09.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -74,7 +74,7 @@
           "lessons": [
             {
               "subject": "спорт",
-              "teacher": "Гордеева М.",
+              "teacher": "Лисеева К.",
               "room": "Стрелка"
             }
           ]
@@ -115,7 +115,12 @@
           },
           "lessons": [
             {
-              "subject": "по выбору",
+              "subject": "Краски",
+              "teacher": "Агеева Е.",
+              "room": "Академия художеств"
+            },
+            {
+              "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -126,7 +131,7 @@
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "16.09.2025",
+      "date": "23.09.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -230,9 +235,9 @@
           },
           "lessons": [
             {
-              "subject": "по выбору",
-              "teacher": "тьютор01",
-              "room": ""
+              "subject": "Игра",
+              "teacher": "Агеева Е.",
+              "room": "Стрелка"
             }
           ]
         },
@@ -244,9 +249,19 @@
           },
           "lessons": [
             {
-              "subject": "по выбору",
+              "subject": "театр",
+              "teacher": "Жаткина Д.",
+              "room": "Мойка"
+            },
+            {
+              "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
+            },
+            {
+              "subject": "Зельеварение",
+              "teacher": "Сова Т.",
+              "room": "Коломна"
             }
           ]
         }
@@ -255,13 +270,13 @@
     {
       "dayIndex": 2,
       "dayName": "Среда",
-      "date": "17.09.2025",
+      "date": "24.09.2025",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "18.09.2025",
+      "date": "25.09.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -369,8 +384,8 @@
           },
           "lessons": [
             {
-              "subject": "по выбору",
-              "teacher": "тьютор01",
+              "subject": "Игра",
+              "teacher": "Агеева Е.",
               "room": ""
             }
           ]
@@ -380,7 +395,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "19.09.2025",
+      "date": "26.09.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -484,8 +499,8 @@
           },
           "lessons": [
             {
-              "subject": "по выбору",
-              "teacher": "тьютор01",
+              "subject": "Игра",
+              "teacher": "Агеева Е.",
               "room": ""
             }
           ]
@@ -498,7 +513,12 @@
           },
           "lessons": [
             {
-              "subject": "по выбору",
+              "subject": "лепка",
+              "teacher": "Агеева Е.",
+              "room": "Мастерская"
+            },
+            {
+              "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -513,8 +533,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 38942,
+    "contentLength": 39899,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-09-15"
+    "hash": "#/groups/38/lessons?date=2025-09-22"
   }
 }
