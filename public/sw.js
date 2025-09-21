@@ -1,21 +1,10 @@
-const CACHE_NAME = 'raspisanie-v1.3.3';
-const STATIC_CACHE = 'raspisanie-static-v1.3.3';
-const DATA_CACHE = 'raspisanie-data-v1.3.3';
+const CACHE_NAME = 'raspisanie-v1.3.5';
+const STATIC_CACHE = 'raspisanie-static-v1.3.5';
+const DATA_CACHE = 'raspisanie-data-v1.3.5';
 
 // Статические ресурсы для кэширования (относительные пути от index.html)
 const urlsToCache = [
-  './',
-  './favicon.svg',
-  './icon-192.svg',
-  './icon-512.svg',
-  './icon-144.svg',
-  './icon-96.svg',
-  './icon-72.svg',
-  './icon-48.svg',
-  './favicon.ico',
-  './manifest.json',
-  './screenshot-mobile.png',
-  './screenshot-desktop.png'
+  './'
 ];
 
 // Данные для кэширования (данные уже встроены в HTML)
@@ -47,7 +36,7 @@ self.addEventListener('activate', (event) => {
       caches.keys().then((cacheNames) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
-            if (!cacheName.includes('v1.3.3')) {
+            if (!cacheName.includes('v1.3.5')) {
               console.log('Удаляем старый кэш:', cacheName);
               return caches.delete(cacheName);
             }

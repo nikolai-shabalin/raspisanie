@@ -5,21 +5,28 @@ import scheduleData from '../data/structured-schedule-data.json';
 const now = new Date();
 const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // Убираем время, оставляем только дату
 
+// Базовый путь с завершающим слэшем для корректных ссылок на GitHub Pages
+// Используем <base> в <head>, чтобы не управлять путями вручную
+
 // Функция для парсинга даты из формата DD.MM.YYYY
 function parseDate(dateString: string) {
 	const [day, month, year] = dateString.split('.');
 	return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
 }
 
-// Фильтруем дни - показываем только текущий день и следующие, исключаем дни без занятий
-const filteredDays = scheduleData.days.filter((day) => {
+// Разделяем дни: прошедшие и предстоящие (исключаем дни без занятий)
+const pastDays = scheduleData.days.filter((day) => {
 	const dayDate = parseDate(day.date);
-	// Показываем день, если его дата >= сегодняшней даты И есть занятия
+	return dayDate < today && day.lessons.length > 0;
+});
+
+const upcomingDays = scheduleData.days.filter((day) => {
+	const dayDate = parseDate(day.date);
 	return dayDate >= today && day.lessons.length > 0;
 });
 
 // Получаем текущий день для отображения полоски времени
-const currentDay = filteredDays.find(day => {
+const currentDay = scheduleData.days.find(day => {
 	const dayDate = parseDate(day.date);
 	return dayDate.getTime() === today.getTime();
 });
@@ -133,6 +140,7 @@ function getCurrentLessonInfo() {
 		<meta name="description" content="Приложение для просмотра расписания уроков класса 1М" />
 		<meta name="theme-color" content="#667eea" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
 		<meta name="apple-mobile-web-app-title" content="Расписание" />
 		<meta name="msapplication-TileColor" content="#667eea" />
@@ -635,6 +643,38 @@ function getCurrentLessonInfo() {
 					justify-content: center;
 				}
 			}
+
+			/* Прошедшие дни: details/summary */
+			.past-days {
+				margin: 20px;
+			}
+			.past-day {
+				background: var(--card-bg);
+				border-radius: 8px;
+				box-shadow: 0 2px 6px var(--shadow-color);
+				margin-bottom: 12px;
+				overflow: hidden;
+			}
+			.past-day summary {
+				list-style: none;
+				cursor: pointer;
+				padding: 14px 20px;
+				border-bottom: 1px solid var(--border-color);
+				background: var(--card-bg);
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.past-day summary::-webkit-details-marker { display: none; }
+			.past-day .past-link {
+				color: var(--gradient-start);
+				text-decoration: underline;
+				font-weight: 600;
+			}
+			.past-day .day-date {
+				color: var(--text-secondary);
+				font-weight: 500;
+			}
 		</style>
 	</head>
 	<body>
@@ -662,8 +702,35 @@ function getCurrentLessonInfo() {
 				</div>
 			</div>
 			
+			{pastDays.length > 0 && (
+				<div class="past-days">
+					{pastDays.map((day) => (
+						<details class="past-day">
+							<summary>
+								<a class="past-link">{day.dayName}</a>
+								<span class="day-date">{day.date}</span>
+							</summary>
+							<div class="day-content">
+								{day.lessons.map((lesson) => (
+									<div class="lesson-slot" data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
+										<div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
+										{lesson.lessons.map((activity) => (
+											<div class="activity" data-subject={activity.subject}>
+												<div class="subject">{activity.subject}</div>
+												{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
+												{activity.room && <div class="room">🏢 {activity.room}</div>}
+											</div>
+										))}
+									</div>
+								))}
+							</div>
+						</details>
+					))}
+				</div>
+			)}
+
 			<div class="schedule-grid">
-				{filteredDays.map((day) => {
+				{upcomingDays.map((day) => {
 					const isCurrentDay = parseDate(day.date).getTime() === today.getTime();
 					
 					return (
@@ -674,7 +741,7 @@ function getCurrentLessonInfo() {
 							</div>
 							
 							<div class="day-content">
-								{isCurrentDay && <div id="timeIndicator" class="time-indicator" style="display: none;"></div>}
+								{/* timeIndicator создаётся на клиенте в ensureTimeIndicatorExists() */}
 								
 								{day.lessons.map((lesson, index) => {
 									let slotClass = 'lesson-slot';
