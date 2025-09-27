@@ -13,8 +13,8 @@
     "pwa-check": "echo 'Откройте http://localhost:4321/pwa-check.html для проверки PWA'"
   },
   "dependencies": {
-    "astro": "^5.13.10",
-    "cheerio": "^1.0.0-rc.12",
-    "puppeteer": "^24.22.2"
+    "astro": "^5.14.1",
+    "cheerio": "^1.1.2",
+    "puppeteer": "^24.22.3"
   }
 }

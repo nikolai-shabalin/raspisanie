@@ -17,18 +17,27 @@ function parseDate(dateString: string) {
 // Разделяем дни: прошедшие и предстоящие (исключаем дни без занятий)
 const pastDays = scheduleData.days.filter((day) => {
 	const dayDate = parseDate(day.date);
-	return dayDate < today && day.lessons.length > 0;
+	// Нормализуем даты для корректного сравнения (убираем время)
+	const normalizedDayDate = new Date(dayDate.getFullYear(), dayDate.getMonth(), dayDate.getDate());
+	const normalizedToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+	return normalizedDayDate < normalizedToday && day.lessons.length > 0;
 });
 
 const upcomingDays = scheduleData.days.filter((day) => {
 	const dayDate = parseDate(day.date);
-	return dayDate >= today && day.lessons.length > 0;
+	// Нормализуем даты для корректного сравнения (убираем время)
+	const normalizedDayDate = new Date(dayDate.getFullYear(), dayDate.getMonth(), dayDate.getDate());
+	const normalizedToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+	return normalizedDayDate >= normalizedToday && day.lessons.length > 0;
 });
 
 // Получаем текущий день для отображения полоски времени
 const currentDay = scheduleData.days.find(day => {
 	const dayDate = parseDate(day.date);
-	return dayDate.getTime() === today.getTime();
+	// Нормализуем даты для корректного сравнения (убираем время)
+	const normalizedDayDate = new Date(dayDate.getFullYear(), dayDate.getMonth(), dayDate.getDate());
+	const normalizedToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+	return normalizedDayDate.getTime() === normalizedToday.getTime();
 });
 
 // Функция для получения текущего времени в формате HH:MM
@@ -731,7 +740,11 @@ function getCurrentLessonInfo() {
 
 			<div class="schedule-grid">
 				{upcomingDays.map((day) => {
-					const isCurrentDay = parseDate(day.date).getTime() === today.getTime();
+					const dayDate = parseDate(day.date);
+					// Нормализуем даты для корректного сравнения (убираем время)
+					const normalizedDayDate = new Date(dayDate.getFullYear(), dayDate.getMonth(), dayDate.getDate());
+					const normalizedToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+					const isCurrentDay = normalizedDayDate.getTime() === normalizedToday.getTime();
 					
 					return (
 						<div class="day-section">
