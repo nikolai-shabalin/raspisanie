@@ -67,8 +67,8 @@ pnpm run dev
 ### Парсинг расписания
 ```bash
 # Парсинг с указанием URL
-pnpm run parse "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-22"
-pnpm run parse-structured "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-22"
+pnpm run parse "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-29"
+pnpm run parse-structured "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-29"
 ```
 
 **⚠️ Важно:** URL обязателен! Если не указать URL, скрипт завершится с ошибкой.

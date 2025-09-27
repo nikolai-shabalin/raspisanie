@@ -1,9 +1,9 @@
 {
-  "weekRange": "22.09.2025 - 28.09.2025",
+  "weekRange": "29.09.2025 - 05.10.2025",
   "days": [
     {
       "dayName": "Понедельник",
-      "date": "22.09.2025",
+      "date": "29.09.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -94,7 +94,7 @@
     },
     {
       "dayName": "Вторник",
-      "date": "23.09.2025",
+      "date": "30.09.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -171,7 +171,7 @@
           "activities": [
             {
               "subject": "Игра",
-              "teacher": "Агеева Е.",
+              "teacher": "тьютор01",
               "room": "Стрелка"
             }
           ]
@@ -200,12 +200,12 @@
     },
     {
       "dayName": "Среда",
-      "date": "24.09.2025",
+      "date": "01.10.2025",
       "lessons": []
     },
     {
       "dayName": "Четверг",
-      "date": "25.09.2025",
+      "date": "02.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -282,7 +282,7 @@
           "activities": [
             {
               "subject": "Игра",
-              "teacher": "Агеева Е.",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -291,7 +291,7 @@
     },
     {
       "dayName": "Пятница",
-      "date": "26.09.2025",
+      "date": "03.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -347,7 +347,7 @@
           "time": "14:00-14:45",
           "activities": [
             {
-              "subject": "прогулка",
+              "subject": "выезд",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -357,7 +357,7 @@
           "time": "15:00-15:45",
           "activities": [
             {
-              "subject": "прогулка",
+              "subject": "выезд",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -367,8 +367,8 @@
           "time": "16:00-16:45",
           "activities": [
             {
-              "subject": "Игра",
-              "teacher": "Агеева Е.",
+              "subject": "выезд",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -397,8 +397,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39899,
+    "contentLength": 39839,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-09-22"
+    "hash": "#/groups/38/lessons?date=2025-09-29"
   }
 }
