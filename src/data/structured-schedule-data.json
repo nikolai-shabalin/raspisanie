@@ -1,13 +1,13 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-29",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-06",
   "title": "publications",
-  "timestamp": "2025-09-27T11:31:47.071Z",
-  "weekRange": "29.09.2025 - 05.10.2025",
+  "timestamp": "2025-10-04T08:31:36.314Z",
+  "weekRange": "06.10.2025 - 12.10.2025",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "29.09.2025",
+      "date": "06.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -131,7 +131,7 @@
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "30.09.2025",
+      "date": "07.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -270,13 +270,13 @@
     {
       "dayIndex": 2,
       "dayName": "Среда",
-      "date": "01.10.2025",
+      "date": "08.10.2025",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "02.10.2025",
+      "date": "09.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -395,7 +395,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "03.10.2025",
+      "date": "10.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -471,7 +471,7 @@
           },
           "lessons": [
             {
-              "subject": "выезд",
+              "subject": "прогулка",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -485,7 +485,7 @@
           },
           "lessons": [
             {
-              "subject": "выезд",
+              "subject": "прогулка",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -499,7 +499,7 @@
           },
           "lessons": [
             {
-              "subject": "выезд",
+              "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -533,8 +533,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39839,
+    "contentLength": 39896,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-09-29"
+    "hash": "#/groups/38/lessons?date=2025-10-06"
   }
 }

@@ -653,37 +653,6 @@ function getCurrentLessonInfo() {
 				}
 			}
 
-			/* Прошедшие дни: details/summary */
-			.past-days {
-				margin: 20px;
-			}
-			.past-day {
-				background: var(--card-bg);
-				border-radius: 8px;
-				box-shadow: 0 2px 6px var(--shadow-color);
-				margin-bottom: 12px;
-				overflow: hidden;
-			}
-			.past-day summary {
-				list-style: none;
-				cursor: pointer;
-				padding: 14px 20px;
-				border-bottom: 1px solid var(--border-color);
-				background: var(--card-bg);
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-			}
-			.past-day summary::-webkit-details-marker { display: none; }
-			.past-day .past-link {
-				color: var(--gradient-start);
-				text-decoration: underline;
-				font-weight: 600;
-			}
-			.past-day .day-date {
-				color: var(--text-secondary);
-				font-weight: 500;
-			}
 		</style>
 	</head>
 	<body>
@@ -712,13 +681,13 @@ function getCurrentLessonInfo() {
 			</div>
 			
 			{pastDays.length > 0 && (
-				<div class="past-days">
+				<div class="schedule-grid">
 					{pastDays.map((day) => (
-						<details class="past-day">
-							<summary>
-								<a class="past-link">{day.dayName}</a>
-								<span class="day-date">{day.date}</span>
-							</summary>
+						<div class="day-section">
+							<div class="day-header">
+								<div class="day-name">{day.dayName}</div>
+								<div class="day-date">{day.date}</div>
+							</div>
 							<div class="day-content">
 								{day.lessons.map((lesson) => (
 									<div class="lesson-slot" data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
@@ -733,7 +702,7 @@ function getCurrentLessonInfo() {
 									</div>
 								))}
 							</div>
-						</details>
+						</div>
 					))}
 				</div>
 			)}
@@ -792,7 +761,7 @@ function getCurrentLessonInfo() {
 			
 			<div class="metadata">
 				<p><strong>Все данные берутся из открытых источников.</strong></p>
-				<p>Расписание получено автоматически с сайта <a href="https://schedule.mstimetables.ru/" target="_blank" rel="noopener">schedule.mstimetables.ru</a>.</p>
+				<p>Расписание получено автоматически с сайта <a href="https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons" target="_blank" rel="noopener">schedule.mstimetables.ru</a>.</p>
 				<p>Дата последнего парсинга: {new Date(scheduleData.metadata.lastModified).toLocaleString('ru-RU')}</p>
 			</div>
 		</div>

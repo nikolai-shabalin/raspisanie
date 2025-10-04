@@ -1,9 +1,9 @@
 {
-  "weekRange": "29.09.2025 - 05.10.2025",
+  "weekRange": "06.10.2025 - 12.10.2025",
   "days": [
     {
       "dayName": "Понедельник",
-      "date": "29.09.2025",
+      "date": "06.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -94,7 +94,7 @@
     },
     {
       "dayName": "Вторник",
-      "date": "30.09.2025",
+      "date": "07.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -200,12 +200,12 @@
     },
     {
       "dayName": "Среда",
-      "date": "01.10.2025",
+      "date": "08.10.2025",
       "lessons": []
     },
     {
       "dayName": "Четверг",
-      "date": "02.10.2025",
+      "date": "09.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -291,7 +291,7 @@
     },
     {
       "dayName": "Пятница",
-      "date": "03.10.2025",
+      "date": "10.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -347,7 +347,7 @@
           "time": "14:00-14:45",
           "activities": [
             {
-              "subject": "выезд",
+              "subject": "прогулка",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -357,7 +357,7 @@
           "time": "15:00-15:45",
           "activities": [
             {
-              "subject": "выезд",
+              "subject": "прогулка",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -367,7 +367,7 @@
           "time": "16:00-16:45",
           "activities": [
             {
-              "subject": "выезд",
+              "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
             }
@@ -397,8 +397,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39839,
+    "contentLength": 39896,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-09-29"
+    "hash": "#/groups/38/lessons?date=2025-10-06"
   }
 }

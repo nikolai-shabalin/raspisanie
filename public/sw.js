@@ -1,28 +1,18 @@
-const CACHE_NAME = 'raspisanie-v1.4.0';
-const STATIC_CACHE = 'raspisanie-static-v1.4.0';
-const DATA_CACHE = 'raspisanie-data-v1.4.0';
+const CACHE_VERSION = 'v1.4.1';
+const CACHE_NAME = `raspisanie-${CACHE_VERSION}`;
 
 // Статические ресурсы для кэширования (относительные пути от index.html)
 const urlsToCache = [
   './'
 ];
 
-// Данные для кэширования (данные уже встроены в HTML)
-const dataUrlsToCache = [];
 
 // Установка Service Worker
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    Promise.all([
-      // Кэшируем статические ресурсы
-      caches.open(STATIC_CACHE).then((cache) => {
-        return cache.addAll(urlsToCache);
-      }),
-      // Кэшируем данные
-      caches.open(DATA_CACHE).then((cache) => {
-        return cache.addAll(dataUrlsToCache);
-      })
-    ])
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(urlsToCache);
+    })
   );
   // Принудительная активация нового SW
   self.skipWaiting();
@@ -36,7 +26,7 @@ self.addEventListener('activate', (event) => {
       caches.keys().then((cacheNames) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
-            if (!cacheName.includes('v1.4.0')) {
+            if (!cacheName.includes(CACHE_VERSION)) {
               console.log('Удаляем старый кэш:', cacheName);
               return caches.delete(cacheName);
             }
@@ -70,7 +60,7 @@ async function handleRequest(request) {
   try {
     // Стратегия для статических ресурсов
     if (isStaticResource(request)) {
-      return await cacheFirst(request, STATIC_CACHE);
+      return await cacheFirst(request, CACHE_NAME);
     }
     
     // Стратегия для данных (данные уже встроены в HTML, поэтому пропускаем)
@@ -81,11 +71,11 @@ async function handleRequest(request) {
     
     // Стратегия для HTML страниц
     if (request.destination === 'document') {
-      return await networkFirst(request, STATIC_CACHE);
+      return await networkFirst(request, CACHE_NAME);
     }
     
     // Для остальных запросов - сначала сеть, потом кэш
-    return await networkFirst(request, STATIC_CACHE);
+    return await networkFirst(request, CACHE_NAME);
     
   } catch (error) {
     // Если это запрос HTML страницы, показываем кэшированную версию index.html

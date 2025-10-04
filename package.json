@@ -7,14 +7,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "parse": "node src/scripts/parse-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-29",
-    "parse-structured": "node src/scripts/parse-structured-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-09-29",
+    "parse": "node src/scripts/parse-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-06",
+    "parse-structured": "node src/scripts/parse-structured-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-06",
     "generate-icons": "node scripts/generate-icons.js ",
     "pwa-check": "echo 'Откройте http://localhost:4321/pwa-check.html для проверки PWA'"
   },
   "dependencies": {
     "astro": "^5.14.1",
     "cheerio": "^1.1.2",
-    "puppeteer": "^24.22.3"
+    "puppeteer": "^24.23.0"
   }
 }
