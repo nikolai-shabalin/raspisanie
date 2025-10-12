@@ -1,9 +1,9 @@
 {
-  "weekRange": "06.10.2025 - 12.10.2025",
+  "weekRange": "13.10.2025 - 19.10.2025",
   "days": [
     {
       "dayName": "Понедельник",
-      "date": "06.10.2025",
+      "date": "13.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -94,7 +94,7 @@
     },
     {
       "dayName": "Вторник",
-      "date": "07.10.2025",
+      "date": "14.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -200,12 +200,12 @@
     },
     {
       "dayName": "Среда",
-      "date": "08.10.2025",
+      "date": "15.10.2025",
       "lessons": []
     },
     {
       "dayName": "Четверг",
-      "date": "09.10.2025",
+      "date": "16.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -291,7 +291,7 @@
     },
     {
       "dayName": "Пятница",
-      "date": "10.10.2025",
+      "date": "17.10.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -397,8 +397,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39896,
+    "contentLength": 39844,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-10-06"
+    "hash": "#/groups/38/lessons?date=2025-10-13"
   }
 }

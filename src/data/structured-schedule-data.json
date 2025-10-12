@@ -1,13 +1,13 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-06",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-13",
   "title": "publications",
-  "timestamp": "2025-10-04T08:31:36.314Z",
-  "weekRange": "06.10.2025 - 12.10.2025",
+  "timestamp": "2025-10-12T18:35:59.494Z",
+  "weekRange": "13.10.2025 - 19.10.2025",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "06.10.2025",
+      "date": "13.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -131,7 +131,7 @@
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "07.10.2025",
+      "date": "14.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -270,13 +270,13 @@
     {
       "dayIndex": 2,
       "dayName": "Среда",
-      "date": "08.10.2025",
+      "date": "15.10.2025",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "09.10.2025",
+      "date": "16.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -395,7 +395,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "10.10.2025",
+      "date": "17.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -533,8 +533,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39896,
+    "contentLength": 39844,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-10-06"
+    "hash": "#/groups/38/lessons?date=2025-10-13"
   }
 }
