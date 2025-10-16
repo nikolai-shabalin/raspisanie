@@ -315,33 +315,74 @@ function getCurrentLessonInfo() {
 				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 				gap: 20px;
 			}
-			.day-section {
-				background: var(--card-bg);
-				border-radius: 8px;
-				margin-bottom: 20px;
-			}
-			.day-header {
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-				margin-bottom: 20px;
-				padding: 15px 20px;
+                        .day-section {
+                                background: var(--card-bg);
+                                border-radius: 8px;
+                                margin-bottom: 20px;
+                                overflow: hidden;
+                                border: 1px solid transparent;
+                                transition: border-color 0.3s ease;
+                        }
+
+                        .day-section[open] {
+                                border-color: color-mix(in srgb, var(--gradient-start) 25%, transparent);
+                        }
+
+                        .day-section summary {
+                                list-style: none;
+                                cursor: pointer;
+                                outline: none;
+                                display: block;
+                        }
+
+                        .day-section summary::-webkit-details-marker {
+                                display: none;
+                        }
+
+                        .day-section.is-today {
+                                border-color: color-mix(in srgb, var(--gradient-start) 40%, transparent);
+                        }
+                        .day-header {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                margin-bottom: 20px;
+                                padding: 15px 20px;
 				border-bottom: 2px solid var(--border-color);
 				background: var(--card-bg);
-				position: sticky;
-				top: 0;
-				z-index: 10;
-				box-shadow: 0 2px 4px var(--shadow-color);
-			}
+                                position: sticky;
+                                top: 0;
+                                z-index: 10;
+                                box-shadow: 0 2px 4px var(--shadow-color);
+                        }
+
+                        .day-toggle {
+                                font-size: 1.4rem;
+                                color: var(--text-muted);
+                                transition: transform 0.3s ease;
+                        }
+
+                        .day-section[open] .day-toggle {
+                                transform: rotate(90deg);
+                                color: var(--gradient-start);
+                        }
+
+                        .day-section summary:focus .day-header,
+                        .day-section summary:hover .day-header {
+                                background: color-mix(in srgb, var(--card-bg) 70%, var(--gradient-start));
+                        }
 			.day-name {
 				font-size: 1.6rem;
 				font-weight: 600;
 				color: var(--text-color);
 			}
-			.day-date {
-				font-size: 1.2rem;
-				color: var(--text-secondary);
-			}
+                        .day-date {
+                                font-size: 1.2rem;
+                                color: var(--text-secondary);
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                        }
 			.lesson {
 				border-radius: 6px;
 				padding: 15px 0;
@@ -680,32 +721,37 @@ function getCurrentLessonInfo() {
 				</div>
 			</div>
 			
-			{pastDays.length > 0 && (
-				<div class="schedule-grid">
-					{pastDays.map((day) => (
-						<div class="day-section">
-							<div class="day-header">
-								<div class="day-name">{day.dayName}</div>
-								<div class="day-date">{day.date}</div>
-							</div>
-							<div class="day-content">
-								{day.lessons.map((lesson) => (
-									<div class="lesson-slot" data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
-										<div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
-										{lesson.lessons.map((activity) => (
-											<div class="activity" data-subject={activity.subject}>
-												<div class="subject">{activity.subject}</div>
-												{activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
-												{activity.room && <div class="room">🏢 {activity.room}</div>}
-											</div>
-										))}
-									</div>
-								))}
-							</div>
-						</div>
-					))}
-				</div>
-			)}
+                        {pastDays.length > 0 && (
+                                <div class="schedule-grid">
+                                        {pastDays.map((day) => (
+                                                <details class="day-section" data-date={day.date}>
+                                                        <summary>
+                                                                <div class="day-header">
+                                                                        <div class="day-name">{day.dayName}</div>
+                                                                        <div class="day-date">
+                                                                                {day.date}
+                                                                                <span class="day-toggle" aria-hidden="true">▸</span>
+                                                                        </div>
+                                                                </div>
+                                                        </summary>
+                                                        <div class="day-content">
+                                                                {day.lessons.map((lesson) => (
+                                                                        <div class="lesson-slot" data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
+                                                                                <div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
+                                                                                {lesson.lessons.map((activity) => (
+                                                                                        <div class="activity" data-subject={activity.subject}>
+                                                                                                <div class="subject">{activity.subject}</div>
+                                                                                                {activity.teacher && <div class="teacher">👨‍🏫 {activity.teacher}</div>}
+                                                                                                {activity.room && <div class="room">🏢 {activity.room}</div>}
+                                                                                        </div>
+                                                                                ))}
+                                                                        </div>
+                                                                ))}
+                                                        </div>
+                                                </details>
+                                        ))}
+                                </div>
+                        )}
 
 			<div class="schedule-grid">
 				{upcomingDays.map((day) => {
@@ -716,13 +762,18 @@ function getCurrentLessonInfo() {
 					const isCurrentDay = normalizedDayDate.getTime() === normalizedToday.getTime();
 					
 					return (
-						<div class="day-section">
-							<div class="day-header">
-								<div class="day-name">{day.dayName}</div>
-								<div class="day-date">{day.date}</div>
-							</div>
-							
-							<div class="day-content">
+                                                <details class="day-section" data-date={day.date}>
+                                                        <summary>
+                                                                <div class="day-header">
+                                                                        <div class="day-name">{day.dayName}</div>
+                                                                        <div class="day-date">
+                                                                                {day.date}
+                                                                                <span class="day-toggle" aria-hidden="true">▸</span>
+                                                                        </div>
+                                                                </div>
+                                                        </summary>
+
+                                                        <div class="day-content">
 								{/* timeIndicator создаётся на клиенте в ensureTimeIndicatorExists() */}
 								
 								{day.lessons.map((lesson, index) => {
@@ -741,8 +792,8 @@ function getCurrentLessonInfo() {
 									}
 									
 									return (
-										<div class={slotClass} data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
-											<div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
+                                                                                <div class={slotClass} data-start={lesson.timeSlot.start} data-end={lesson.timeSlot.end}>
+                                                                                        <div class="lesson-time">{lesson.timeSlot.start} - {lesson.timeSlot.end}</div>
 											{lesson.lessons.map((activity) => (
 												<div class="activity" data-subject={activity.subject}>
 													<div class="subject">{activity.subject}</div>
@@ -753,8 +804,8 @@ function getCurrentLessonInfo() {
 										</div>
 									);
 								})}
-							</div>
-						</div>
+                                                        </div>
+                                                </details>
 					);
 				})}
 			</div>
@@ -957,7 +1008,70 @@ function getCurrentLessonInfo() {
 				}
 			}
 
-			// Создаем индикатор времени на клиенте, если он не был отрендерен на сервере
+                        function normalizeDateFromString(dateString) {
+                                if (!dateString) return null;
+                                const match = dateString.trim().match(/(\d{2})\.(\d{2})\.(\d{4})/);
+                                if (!match) return null;
+                                const [, day, month, year] = match;
+                                return new Date(Number(year), Number(month) - 1, Number(day));
+                        }
+
+                        function applyDaySectionsState() {
+                                const sections = Array.from(document.querySelectorAll('.day-section'));
+                                if (!sections.length) return;
+
+                                const now = new Date();
+                                const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+                                let hasTodayOrFuture = false;
+                                let lastPastSection = null;
+
+                                sections.forEach((section) => {
+                                        const dateSource = section.getAttribute('data-date') || section.querySelector('.day-date')?.textContent;
+                                        const sectionDate = normalizeDateFromString(dateSource || '');
+
+                                        section.classList.remove('is-today', 'is-past');
+
+                                        if (!sectionDate) {
+                                                section.open = true;
+                                                return;
+                                        }
+
+                                        if (sectionDate < today) {
+                                                section.classList.add('is-past');
+                                                section.open = false;
+                                                lastPastSection = section;
+                                                return;
+                                        }
+
+                                        if (sectionDate.getTime() === today.getTime()) {
+                                                section.classList.add('is-today');
+                                        }
+
+                                        hasTodayOrFuture = true;
+                                        section.open = true;
+                                });
+
+                                if (!hasTodayOrFuture && lastPastSection) {
+                                        lastPastSection.open = true;
+                                }
+                        }
+
+                        function scheduleMidnightRecheck() {
+                                const now = new Date();
+                                const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+                                const timeout = nextMidnight.getTime() - now.getTime();
+
+                                window.setTimeout(() => {
+                                        applyDaySectionsState();
+                                        scheduleMidnightRecheck();
+                                }, timeout + 1000);
+                        }
+
+                        applyDaySectionsState();
+                        scheduleMidnightRecheck();
+
+                        // Создаем индикатор времени на клиенте, если он не был отрендерен на сервере
 			function ensureTimeIndicatorExists() {
 				if (document.getElementById('timeIndicator')) return;
 
