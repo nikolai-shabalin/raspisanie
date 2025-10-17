@@ -473,38 +473,13 @@ function getCurrentLessonInfo() {
 			.time-indicator {
 				position: absolute;
 				left: 0;
-				right: 0;
-				height: 2px;
+				height: 1px;
+				width: 100%;
 				background: #ea4335;
 				z-index: 10;
-				box-shadow: 0 0 10px rgba(234, 67, 53, 0.5);
-				transition: top 0.3s ease;
-			}
-			
-			.time-indicator::before {
-				content: '';
-				position: absolute;
-				left: -6px;
-				top: -4px;
-				width: 10px;
-				height: 10px;
-				background: #ea4335;
-				border-radius: 50%;
-				box-shadow: 0 0 5px rgba(234, 67, 53, 0.8);
-			}
-			
-			.time-indicator::after {
-				content: attr(data-time);
-				position: absolute;
-				right: 10px;
-				top: -8px;
-				background: #ea4335;
-				color: white;
-				padding: 2px 6px;
-				border-radius: 3px;
-				font-size: 13px;
-				font-weight: 500;
-				white-space: nowrap;
+				box-shadow: 0 0 6px rgba(234, 67, 53, 0.3);
+				transition: top 0.3s ease, left 0.3s ease, width 0.3s ease;
+				pointer-events: none;
 			}
 			
 			.day-content {
@@ -951,61 +926,67 @@ function getCurrentLessonInfo() {
 				const timeIndicator = document.getElementById('timeIndicator');
 				if (!timeIndicator) return;
 				
+				const container = timeIndicator.parentElement;
+				if (!container) return;
+				
 				const currentTime = new Date();
 				const currentTimeString = currentTime.toTimeString().slice(0, 5);
+				const containerRect = container.getBoundingClientRect();
+				let activeSlot = null;
 				
-				// Находим текущий временной слот в текущем дне
-				const currentSlot = document.querySelector('.current-slot');
-				const container = timeIndicator.parentElement;
-				
-				if (currentSlot && container) {
-					const slotRect = currentSlot.getBoundingClientRect();
-					const containerRect = container.getBoundingClientRect();
+				container.querySelectorAll('.lesson-slot').forEach(slot => {
+					const startTime = slot.getAttribute('data-start');
+					const endTime = slot.getAttribute('data-end');
 					
-					// Позиционируем полоску времени относительно контейнера дня
-					const relativeTop = slotRect.top - containerRect.top;
-					const slotHeight = slotRect.height;
-					const startTime = currentSlot.getAttribute('data-start');
-					const endTime = currentSlot.getAttribute('data-end');
-					
-					if (startTime && endTime) {
-						// Вычисляем позицию внутри слота
-						const startMinutes = parseInt(startTime.split(':')[0]) * 60 + parseInt(startTime.split(':')[1]);
-						const endMinutes = parseInt(endTime.split(':')[0]) * 60 + parseInt(endTime.split(':')[1]);
-						const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
-						
-						const progress = (currentMinutes - startMinutes) / (endMinutes - startMinutes);
-						const positionInSlot = progress * slotHeight;
-						
-						timeIndicator.style.top = (relativeTop + positionInSlot) + 'px';
-						timeIndicator.style.display = 'block';
-						timeIndicator.setAttribute('data-time', currentTimeString);
+					slot.classList.remove('current-slot', 'past-slot', 'future-slot');
+					if (!startTime || !endTime) {
+						return;
 					}
-				} else {
+					
+					if (isTimeInSlot(currentTimeString, startTime, endTime)) {
+						slot.classList.add('current-slot');
+						activeSlot = slot;
+					} else if (currentTimeString > endTime) {
+						slot.classList.add('past-slot');
+					} else if (currentTimeString < startTime) {
+						slot.classList.add('future-slot');
+					}
+				});
+				
+				if (!activeSlot) {
 					timeIndicator.style.display = 'none';
+					return;
 				}
 				
-				// Обновляем классы только для слотов в текущем дне
-				const currentDayContainer = timeIndicator.parentElement;
-				if (currentDayContainer) {
-					currentDayContainer.querySelectorAll('.lesson-slot').forEach(slot => {
-						const startTime = slot.getAttribute('data-start');
-						const endTime = slot.getAttribute('data-end');
-						const currentTimeStr = currentTimeString;
-						
-						if (startTime && endTime) {
-							slot.classList.remove('current-slot', 'past-slot', 'future-slot');
-							
-							if (isTimeInSlot(currentTimeStr, startTime, endTime)) {
-								slot.classList.add('current-slot');
-							} else if (currentTimeStr > endTime) {
-								slot.classList.add('past-slot');
-							} else if (currentTimeStr < startTime) {
-								slot.classList.add('future-slot');
-							}
-						}
-					});
+				const slotRect = activeSlot.getBoundingClientRect();
+				const startTime = activeSlot.getAttribute('data-start');
+				const endTime = activeSlot.getAttribute('data-end');
+				
+				if (!startTime || !endTime) {
+					timeIndicator.style.display = 'none';
+					return;
 				}
+				
+				const [startHours, startMinutesRaw] = startTime.split(':').map(Number);
+				const [endHours, endMinutesRaw] = endTime.split(':').map(Number);
+				const slotStartMinutes = startHours * 60 + startMinutesRaw;
+				const slotEndMinutes = endHours * 60 + endMinutesRaw;
+				const totalDuration = slotEndMinutes - slotStartMinutes;
+				
+				if (totalDuration <= 0) {
+					timeIndicator.style.display = 'none';
+					return;
+				}
+				
+				const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
+				const rawProgress = (currentMinutes - slotStartMinutes) / totalDuration;
+				const clampedProgress = Math.min(Math.max(rawProgress, 0), 1);
+				const positionInSlot = clampedProgress * slotRect.height;
+				
+				timeIndicator.style.top = (slotRect.top - containerRect.top + positionInSlot) + 'px';
+				timeIndicator.style.left = (slotRect.left - containerRect.left) + 'px';
+				timeIndicator.style.width = slotRect.width + 'px';
+				timeIndicator.style.display = 'block';
 			}
 
                         function normalizeDateFromString(dateString) {
