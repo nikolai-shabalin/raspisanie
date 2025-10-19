@@ -1,13 +1,13 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-13",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-20",
   "title": "publications",
-  "timestamp": "2025-10-12T18:35:59.494Z",
-  "weekRange": "13.10.2025 - 19.10.2025",
+  "timestamp": "2025-10-19T13:32:36.692Z",
+  "weekRange": "20.10.2025 - 26.10.2025",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "13.10.2025",
+      "date": "20.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -131,7 +131,7 @@
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "14.10.2025",
+      "date": "21.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -270,13 +270,13 @@
     {
       "dayIndex": 2,
       "dayName": "Среда",
-      "date": "15.10.2025",
+      "date": "22.10.2025",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "16.10.2025",
+      "date": "23.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -384,9 +384,9 @@
           },
           "lessons": [
             {
-              "subject": "Игра",
-              "teacher": "тьютор01",
-              "room": ""
+              "subject": "лепка",
+              "teacher": "Агеева Е.",
+              "room": "Академия художеств"
             }
           ]
         }
@@ -395,7 +395,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "17.10.2025",
+      "date": "24.10.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -513,11 +513,6 @@
           },
           "lessons": [
             {
-              "subject": "лепка",
-              "teacher": "Агеева Е.",
-              "room": "Мастерская"
-            },
-            {
               "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
@@ -533,8 +528,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39844,
+    "contentLength": 39845,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-10-13"
+    "hash": "#/groups/38/lessons?date=2025-10-20"
   }
 }
