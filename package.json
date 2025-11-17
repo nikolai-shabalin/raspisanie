@@ -7,8 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "parse": "node src/scripts/parse-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-27",
-    "parse-structured": "node src/scripts/parse-structured-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-10-27",
+    "parse": "node src/scripts/parse-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-11-17",
+    "parse-structured": "node src/scripts/parse-structured-schedule.js https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-11-17",
     "generate-icons": "node scripts/generate-icons.js ",
     "pwa-check": "echo 'Откройте http://localhost:4321/pwa-check.html для проверки PWA'"
   },

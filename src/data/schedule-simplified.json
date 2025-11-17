@@ -1,9 +1,9 @@
 {
-  "weekRange": "27.10.2025 - 02.11.2025",
+  "weekRange": "17.11.2025 - 23.11.2025",
   "days": [
     {
       "dayName": "Понедельник(сегодня)",
-      "date": "27.10.2025",
+      "date": "17.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -94,7 +94,7 @@
     },
     {
       "dayName": "Вторник",
-      "date": "28.10.2025",
+      "date": "18.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -150,8 +150,8 @@
           "time": "14:00-14:45",
           "activities": [
             {
-              "subject": "прогулка",
-              "teacher": "тьютор01",
+              "subject": "выезд",
+              "teacher": "Бойко Н.,Фишер А.",
               "room": ""
             }
           ]
@@ -160,8 +160,8 @@
           "time": "15:00-15:45",
           "activities": [
             {
-              "subject": "прогулка",
-              "teacher": "тьютор01",
+              "subject": "выезд",
+              "teacher": "Бойко Н.,Фишер А.",
               "room": ""
             }
           ]
@@ -170,20 +170,15 @@
           "time": "16:00-16:45",
           "activities": [
             {
-              "subject": "Игра",
-              "teacher": "тьютор01",
-              "room": "Стрелка"
+              "subject": "выезд",
+              "teacher": "Бойко Н.,Фишер А.",
+              "room": ""
             }
           ]
         },
         {
           "time": "17:00-17:45",
           "activities": [
-            {
-              "subject": "театр",
-              "teacher": "Жаткина Д.",
-              "room": "Мойка"
-            },
             {
               "subject": "Игра",
               "teacher": "тьютор01",
@@ -200,12 +195,12 @@
     },
     {
       "dayName": "Среда",
-      "date": "29.10.2025",
+      "date": "19.11.2025",
       "lessons": []
     },
     {
       "dayName": "Четверг",
-      "date": "30.10.2025",
+      "date": "20.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -276,22 +271,12 @@
               "room": ""
             }
           ]
-        },
-        {
-          "time": "17:00-17:45",
-          "activities": [
-            {
-              "subject": "лепка",
-              "teacher": "Агеева Е.",
-              "room": "Академия художеств"
-            }
-          ]
         }
       ]
     },
     {
       "dayName": "Пятница",
-      "date": "31.10.2025",
+      "date": "21.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -367,8 +352,23 @@
           "time": "16:00-16:45",
           "activities": [
             {
-              "subject": "Ярмарка",
-              "teacher": "Бадэм П.",
+              "subject": "Игра",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "time": "17:00-17:45",
+          "activities": [
+            {
+              "subject": "лепка",
+              "teacher": "Агеева Е.",
+              "room": "Академия художеств"
+            },
+            {
+              "subject": "Игра",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -382,8 +382,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39363,
+    "contentLength": 39333,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-10-27"
+    "hash": "#/groups/38/lessons?date=2025-11-17"
   }
 }
