@@ -1,13 +1,13 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-11-17",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-11-24",
   "title": "publications",
-  "timestamp": "2025-11-17T07:19:40.260Z",
-  "weekRange": "17.11.2025 - 23.11.2025",
+  "timestamp": "2025-11-26T07:14:17.011Z",
+  "weekRange": "24.11.2025 - 30.11.2025",
   "days": [
     {
       "dayIndex": 0,
-      "dayName": "Понедельник(сегодня)",
-      "date": "17.11.2025",
+      "dayName": "Понедельник",
+      "date": "24.11.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -131,7 +131,7 @@
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "18.11.2025",
+      "date": "25.11.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -207,8 +207,8 @@
           },
           "lessons": [
             {
-              "subject": "выезд",
-              "teacher": "Бойко Н.,Фишер А.",
+              "subject": "прогулка",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -221,8 +221,8 @@
           },
           "lessons": [
             {
-              "subject": "выезд",
-              "teacher": "Бойко Н.,Фишер А.",
+              "subject": "прогулка",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -235,9 +235,9 @@
           },
           "lessons": [
             {
-              "subject": "выезд",
-              "teacher": "Бойко Н.,Фишер А.",
-              "room": ""
+              "subject": "Игра",
+              "teacher": "тьютор01",
+              "room": "Стрелка"
             }
           ]
         },
@@ -264,14 +264,14 @@
     },
     {
       "dayIndex": 2,
-      "dayName": "Среда",
-      "date": "19.11.2025",
+      "dayName": "Среда(сегодня)",
+      "date": "26.11.2025",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "20.11.2025",
+      "date": "27.11.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -376,7 +376,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "21.11.2025",
+      "date": "28.11.2025",
       "lessons": [
         {
           "timeSlot": {
@@ -514,8 +514,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39333,
+    "contentLength": 39329,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-11-17"
+    "hash": "#/groups/38/lessons?date=2025-11-24"
   }
 }

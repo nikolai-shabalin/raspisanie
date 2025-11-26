@@ -1,9 +1,9 @@
 {
-  "weekRange": "17.11.2025 - 23.11.2025",
+  "weekRange": "24.11.2025 - 30.11.2025",
   "days": [
     {
-      "dayName": "Понедельник(сегодня)",
-      "date": "17.11.2025",
+      "dayName": "Понедельник",
+      "date": "24.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -94,7 +94,7 @@
     },
     {
       "dayName": "Вторник",
-      "date": "18.11.2025",
+      "date": "25.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -150,8 +150,8 @@
           "time": "14:00-14:45",
           "activities": [
             {
-              "subject": "выезд",
-              "teacher": "Бойко Н.,Фишер А.",
+              "subject": "прогулка",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -160,8 +160,8 @@
           "time": "15:00-15:45",
           "activities": [
             {
-              "subject": "выезд",
-              "teacher": "Бойко Н.,Фишер А.",
+              "subject": "прогулка",
+              "teacher": "тьютор01",
               "room": ""
             }
           ]
@@ -170,9 +170,9 @@
           "time": "16:00-16:45",
           "activities": [
             {
-              "subject": "выезд",
-              "teacher": "Бойко Н.,Фишер А.",
-              "room": ""
+              "subject": "Игра",
+              "teacher": "тьютор01",
+              "room": "Стрелка"
             }
           ]
         },
@@ -194,13 +194,13 @@
       ]
     },
     {
-      "dayName": "Среда",
-      "date": "19.11.2025",
+      "dayName": "Среда(сегодня)",
+      "date": "26.11.2025",
       "lessons": []
     },
     {
       "dayName": "Четверг",
-      "date": "20.11.2025",
+      "date": "27.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -276,7 +276,7 @@
     },
     {
       "dayName": "Пятница",
-      "date": "21.11.2025",
+      "date": "28.11.2025",
       "lessons": [
         {
           "time": "10:00-10:45",
@@ -382,8 +382,8 @@
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
     "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39333,
+    "contentLength": 39329,
     "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-11-17"
+    "hash": "#/groups/38/lessons?date=2025-11-24"
   }
 }
