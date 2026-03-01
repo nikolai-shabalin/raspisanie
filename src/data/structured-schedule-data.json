@@ -1,13 +1,13 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2025-11-24",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2026-03-02",
   "title": "publications",
-  "timestamp": "2025-11-26T07:14:17.011Z",
-  "weekRange": "24.11.2025 - 30.11.2025",
+  "timestamp": "2026-03-01T15:38:48.879Z",
+  "weekRange": "02.03.2026 - 08.03.2026",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "24.11.2025",
+      "date": "02.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -18,7 +18,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -32,7 +32,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -60,7 +60,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -74,7 +74,7 @@
           "lessons": [
             {
               "subject": "спорт",
-              "teacher": "Лисеева К.",
+              "teacher": "Агеева Ефросинья",
               "room": "Стрелка"
             }
           ]
@@ -115,14 +115,14 @@
           },
           "lessons": [
             {
-              "subject": "Краски",
-              "teacher": "Агеева Е.",
-              "room": "Академия художеств"
-            },
-            {
               "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
+            },
+            {
+              "subject": "Краски",
+              "teacher": "Агеева Ефросинья",
+              "room": "Академия художеств"
             }
           ]
         }
@@ -131,7 +131,7 @@
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "25.11.2025",
+      "date": "03.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -142,7 +142,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -156,18 +156,18 @@
           "lessons": [
             {
               "subject": "английский",
-              "teacher": "Кудрявцева Е.",
-              "room": "12 коллегий"
-            },
-            {
-              "subject": "английский",
-              "teacher": "Сахно И.",
+              "teacher": "Сахно Ирина",
               "room": "Англетер"
             },
             {
               "subject": "английский",
-              "teacher": "Логинова Ю.",
+              "teacher": "Логинова Юлия",
               "room": "Мойка"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Кудрявцева Елена",
+              "room": "12 коллегий"
             }
           ]
         },
@@ -194,7 +194,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -249,14 +249,19 @@
           },
           "lessons": [
             {
+              "subject": "Зельеварение",
+              "teacher": "Сова Татьяна",
+              "room": "Коломна"
+            },
+            {
               "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
             },
             {
-              "subject": "Зельеварение",
-              "teacher": "Сова Т.",
-              "room": "Коломна"
+              "subject": "театр",
+              "teacher": "Жаткина Дина",
+              "room": "Мойка"
             }
           ]
         }
@@ -264,14 +269,14 @@
     },
     {
       "dayIndex": 2,
-      "dayName": "Среда(сегодня)",
-      "date": "26.11.2025",
+      "dayName": "Среда",
+      "date": "04.03.2026",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "27.11.2025",
+      "date": "05.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -282,7 +287,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -296,7 +301,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -324,7 +329,7 @@
           "lessons": [
             {
               "subject": "мышление",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -338,7 +343,7 @@
           "lessons": [
             {
               "subject": "тьюторский час",
-              "teacher": "Попова К.,тьютор01",
+              "teacher": "Попова Катя, тьютор01",
               "room": "Фонтанка"
             }
           ]
@@ -376,7 +381,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "28.11.2025",
+      "date": "06.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -387,7 +392,7 @@
           "lessons": [
             {
               "subject": "учебный блок",
-              "teacher": "Гордеева М.",
+              "teacher": "Гордеева Мария",
               "room": "Мойка"
             }
           ]
@@ -401,18 +406,18 @@
           "lessons": [
             {
               "subject": "английский",
-              "teacher": "Кудрявцева Е.",
+              "teacher": "Логинова Юлия",
+              "room": "Мойка"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Кудрявцева Елена",
               "room": "12 коллегий"
             },
             {
               "subject": "английский",
-              "teacher": "Сахно И.",
+              "teacher": "Сахно Ирина",
               "room": "Англетер"
-            },
-            {
-              "subject": "английский",
-              "teacher": "Логинова Ю.",
-              "room": "Мойка"
             }
           ]
         },
@@ -425,7 +430,7 @@
           "lessons": [
             {
               "subject": "Нейрон",
-              "teacher": "Сырникова К.",
+              "teacher": "Сырникова Кристина",
               "room": "Мойка"
             }
           ]
@@ -495,7 +500,7 @@
           "lessons": [
             {
               "subject": "лепка",
-              "teacher": "Агеева Е.",
+              "teacher": "Агеева Ефросинья",
               "room": "Академия художеств"
             },
             {
@@ -509,13 +514,15 @@
     }
   ],
   "metadata": {
-    "date": "",
-    "groupId": "",
+    "date": "2026-03-02",
+    "groupId": "38",
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
-    "lastModified": "09/09/2025 23:04:43",
-    "contentLength": 39329,
-    "urlParams": {},
-    "hash": "#/groups/38/lessons?date=2025-11-24"
+    "lastModified": "2026-03-01T15:38:48.879Z",
+    "contentLength": 36757,
+    "urlParams": {
+      "date": "2026-03-02"
+    },
+    "hash": "#/groups/38/lessons?date=2026-03-02"
   }
 }
