@@ -1,137 +1,19 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2026-03-02",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2026-03-09",
   "title": "publications",
-  "timestamp": "2026-03-01T15:38:48.879Z",
-  "weekRange": "02.03.2026 - 08.03.2026",
+  "timestamp": "2026-03-07T06:27:15.867Z",
+  "weekRange": "09.03.2026 - 15.03.2026",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "02.03.2026",
-      "lessons": [
-        {
-          "timeSlot": {
-            "start": "10:00",
-            "end": "10:45",
-            "display": "10:0010:45"
-          },
-          "lessons": [
-            {
-              "subject": "учебный блок",
-              "teacher": "Гордеева Мария",
-              "room": "Мойка"
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "11:00",
-            "end": "11:45",
-            "display": "11:0011:45"
-          },
-          "lessons": [
-            {
-              "subject": "учебный блок",
-              "teacher": "Гордеева Мария",
-              "room": "Мойка"
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "12:00",
-            "end": "12:45",
-            "display": "12:0012:45"
-          },
-          "lessons": [
-            {
-              "subject": "обед",
-              "teacher": "тьютор01",
-              "room": "Фонтанка"
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "13:00",
-            "end": "13:45",
-            "display": "13:0013:45"
-          },
-          "lessons": [
-            {
-              "subject": "учебный блок",
-              "teacher": "Гордеева Мария",
-              "room": "Мойка"
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "14:00",
-            "end": "14:45",
-            "display": "14:0014:45"
-          },
-          "lessons": [
-            {
-              "subject": "спорт",
-              "teacher": "Агеева Ефросинья",
-              "room": "Стрелка"
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "15:00",
-            "end": "15:45",
-            "display": "15:0015:45"
-          },
-          "lessons": [
-            {
-              "subject": "прогулка",
-              "teacher": "тьютор01",
-              "room": ""
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "16:00",
-            "end": "16:45",
-            "display": "16:0016:45"
-          },
-          "lessons": [
-            {
-              "subject": "прогулка",
-              "teacher": "тьютор01",
-              "room": ""
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "17:00",
-            "end": "17:45",
-            "display": "17:0017:45"
-          },
-          "lessons": [
-            {
-              "subject": "Игра",
-              "teacher": "тьютор01",
-              "room": ""
-            },
-            {
-              "subject": "Краски",
-              "teacher": "Агеева Ефросинья",
-              "room": "Академия художеств"
-            }
-          ]
-        }
-      ]
+      "date": "09.03.2026",
+      "lessons": []
     },
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "03.03.2026",
+      "date": "10.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -154,11 +36,6 @@
             "display": "11:0011:45"
           },
           "lessons": [
-            {
-              "subject": "английский",
-              "teacher": "Сахно Ирина",
-              "room": "Англетер"
-            },
             {
               "subject": "английский",
               "teacher": "Логинова Юлия",
@@ -168,6 +45,11 @@
               "subject": "английский",
               "teacher": "Кудрявцева Елена",
               "room": "12 коллегий"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Сахно Ирина",
+              "room": "Англетер"
             }
           ]
         },
@@ -176,20 +58,6 @@
             "start": "12:00",
             "end": "12:45",
             "display": "12:0012:45"
-          },
-          "lessons": [
-            {
-              "subject": "обед",
-              "teacher": "тьютор01",
-              "room": "Мойка"
-            }
-          ]
-        },
-        {
-          "timeSlot": {
-            "start": "13:00",
-            "end": "13:45",
-            "display": "13:0013:45"
           },
           "lessons": [
             {
@@ -249,11 +117,6 @@
           },
           "lessons": [
             {
-              "subject": "Зельеварение",
-              "teacher": "Сова Татьяна",
-              "room": "Коломна"
-            },
-            {
               "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
@@ -262,6 +125,11 @@
               "subject": "театр",
               "teacher": "Жаткина Дина",
               "room": "Мойка"
+            },
+            {
+              "subject": "Зельеварение",
+              "teacher": "Сова Татьяна",
+              "room": "Коломна"
             }
           ]
         }
@@ -270,13 +138,13 @@
     {
       "dayIndex": 2,
       "dayName": "Среда",
-      "date": "04.03.2026",
+      "date": "11.03.2026",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "05.03.2026",
+      "date": "12.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -381,7 +249,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "06.03.2026",
+      "date": "13.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -406,11 +274,6 @@
           "lessons": [
             {
               "subject": "английский",
-              "teacher": "Логинова Юлия",
-              "room": "Мойка"
-            },
-            {
-              "subject": "английский",
               "teacher": "Кудрявцева Елена",
               "room": "12 коллегий"
             },
@@ -418,6 +281,11 @@
               "subject": "английский",
               "teacher": "Сахно Ирина",
               "room": "Англетер"
+            },
+            {
+              "subject": "английский",
+              "teacher": "Логинова Юлия",
+              "room": "Мойка"
             }
           ]
         },
@@ -499,14 +367,14 @@
           },
           "lessons": [
             {
-              "subject": "лепка",
-              "teacher": "Агеева Ефросинья",
-              "room": "Академия художеств"
-            },
-            {
               "subject": "Игра",
               "teacher": "тьютор01",
               "room": ""
+            },
+            {
+              "subject": "лепка",
+              "teacher": "Агеева Ефросинья",
+              "room": "Академия художеств"
             }
           ]
         }
@@ -514,15 +382,15 @@
     }
   ],
   "metadata": {
-    "date": "2026-03-02",
+    "date": "2026-03-09",
     "groupId": "38",
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
-    "lastModified": "2026-03-01T15:38:48.879Z",
-    "contentLength": 36757,
+    "lastModified": "2026-03-07T06:27:15.867Z",
+    "contentLength": 30241,
     "urlParams": {
-      "date": "2026-03-02"
+      "date": "2026-03-09"
     },
-    "hash": "#/groups/38/lessons?date=2026-03-02"
+    "hash": "#/groups/38/lessons?date=2026-03-09"
   }
 }
