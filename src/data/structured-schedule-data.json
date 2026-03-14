@@ -1,19 +1,137 @@
 {
-  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2026-03-09",
+  "url": "https://schedule.mstimetables.ru/publications/4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6#/groups/38/lessons?date=2026-03-16",
   "title": "publications",
-  "timestamp": "2026-03-07T06:27:15.867Z",
-  "weekRange": "09.03.2026 - 15.03.2026",
+  "timestamp": "2026-03-14T06:34:46.239Z",
+  "weekRange": "16.03.2026 - 22.03.2026",
   "days": [
     {
       "dayIndex": 0,
       "dayName": "Понедельник",
-      "date": "09.03.2026",
-      "lessons": []
+      "date": "16.03.2026",
+      "lessons": [
+        {
+          "timeSlot": {
+            "start": "10:00",
+            "end": "10:45",
+            "display": "10:0010:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева Мария",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "11:00",
+            "end": "11:45",
+            "display": "11:0011:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева Мария",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "12:00",
+            "end": "12:45",
+            "display": "12:0012:45"
+          },
+          "lessons": [
+            {
+              "subject": "обед",
+              "teacher": "тьютор01",
+              "room": "Фонтанка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "13:00",
+            "end": "13:45",
+            "display": "13:0013:45"
+          },
+          "lessons": [
+            {
+              "subject": "учебный блок",
+              "teacher": "Гордеева Мария",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "14:00",
+            "end": "14:45",
+            "display": "14:0014:45"
+          },
+          "lessons": [
+            {
+              "subject": "спорт",
+              "teacher": "Агеева Ефросинья",
+              "room": "Стрелка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "15:00",
+            "end": "15:45",
+            "display": "15:0015:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "16:00",
+            "end": "16:45",
+            "display": "16:0016:45"
+          },
+          "lessons": [
+            {
+              "subject": "прогулка",
+              "teacher": "тьютор01",
+              "room": ""
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "17:00",
+            "end": "17:45",
+            "display": "17:0017:45"
+          },
+          "lessons": [
+            {
+              "subject": "Игра",
+              "teacher": "тьютор01",
+              "room": ""
+            },
+            {
+              "subject": "Краски",
+              "teacher": "Агеева Ефросинья",
+              "room": "Академия художеств"
+            }
+          ]
+        }
+      ]
     },
     {
       "dayIndex": 1,
       "dayName": "Вторник",
-      "date": "10.03.2026",
+      "date": "17.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -58,6 +176,20 @@
             "start": "12:00",
             "end": "12:45",
             "display": "12:0012:45"
+          },
+          "lessons": [
+            {
+              "subject": "обед",
+              "teacher": "тьютор01",
+              "room": "Мойка"
+            }
+          ]
+        },
+        {
+          "timeSlot": {
+            "start": "13:00",
+            "end": "13:45",
+            "display": "13:0013:45"
           },
           "lessons": [
             {
@@ -117,14 +249,14 @@
           },
           "lessons": [
             {
-              "subject": "Игра",
-              "teacher": "тьютор01",
-              "room": ""
-            },
-            {
               "subject": "театр",
               "teacher": "Жаткина Дина",
               "room": "Мойка"
+            },
+            {
+              "subject": "Игра",
+              "teacher": "тьютор01",
+              "room": ""
             },
             {
               "subject": "Зельеварение",
@@ -138,13 +270,13 @@
     {
       "dayIndex": 2,
       "dayName": "Среда",
-      "date": "11.03.2026",
+      "date": "18.03.2026",
       "lessons": []
     },
     {
       "dayIndex": 3,
       "dayName": "Четверг",
-      "date": "12.03.2026",
+      "date": "19.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -249,7 +381,7 @@
     {
       "dayIndex": 4,
       "dayName": "Пятница",
-      "date": "13.03.2026",
+      "date": "20.03.2026",
       "lessons": [
         {
           "timeSlot": {
@@ -274,13 +406,13 @@
           "lessons": [
             {
               "subject": "английский",
-              "teacher": "Кудрявцева Елена",
-              "room": "12 коллегий"
+              "teacher": "Сахно Ирина",
+              "room": "Англетер"
             },
             {
               "subject": "английский",
-              "teacher": "Сахно Ирина",
-              "room": "Англетер"
+              "teacher": "Кудрявцева Елена",
+              "room": "12 коллегий"
             },
             {
               "subject": "английский",
@@ -382,15 +514,15 @@
     }
   ],
   "metadata": {
-    "date": "2026-03-09",
+    "date": "2026-03-16",
     "groupId": "38",
     "publicationId": "4f2464cf-c4d1-4f55-b67a-2f8de64f5ba6",
     "pageTitle": "publications",
-    "lastModified": "2026-03-07T06:27:15.867Z",
-    "contentLength": 30241,
+    "lastModified": "2026-03-14T06:34:46.239Z",
+    "contentLength": 36757,
     "urlParams": {
-      "date": "2026-03-09"
+      "date": "2026-03-16"
     },
-    "hash": "#/groups/38/lessons?date=2026-03-09"
+    "hash": "#/groups/38/lessons?date=2026-03-16"
   }
 }
